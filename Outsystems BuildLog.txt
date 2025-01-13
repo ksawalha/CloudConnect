@@ -1,0 +1,1266 @@
+[2025-01-13T14:31:10.075Z] [INFO] [Validation] [AppShield] Validating AppShield for the given build request
+[2025-01-13T14:31:10.076Z] [INFO] [Validation] [AppShield] Obtaining application preferences
+[2025-01-13T14:31:10.076Z] [INFO] [Validation] [AppShield] Verifying if the AppShield plugin is available in the build request
+[2025-01-13T14:31:10.076Z] [INFO] [Validation] [AppShield] AppShield plugin is available? false
+[2025-01-13T14:31:10.135Z] [INFO] [Validation] [ApplicationPreferences] Validating build structure for the given build request
+[2025-01-13T14:31:10.154Z] [INFO] [Validation] [ApplicationPreferences] Obtaining application preferences
+[2025-01-13T14:31:10.155Z] [INFO] [Validation] [ApplicationPreferences] Are preferences valid? true
+[2025-01-13T14:31:10.086Z] [INFO] [Validation] [Resources] Are prebundle resources valid? true
+[2025-01-13T14:31:10.087Z] [INFO] [Validation] [Plugins] Validating plugins for the given build request
+[2025-01-13T14:31:10.087Z] [INFO] [Validation] [Plugins] Obtaining plugin versions
+[2025-01-13T14:31:10.088Z] [INFO] [Validation] [Plugins] Applying plugin validations
+[2025-01-13T14:31:10.089Z] [INFO] [Validation] [Plugins] Are plugins valid? true
+[2025-01-13T14:31:10.442Z] [INFO] [Validation] Gathering validation results
+[2025-01-13T14:31:10.442Z] [INFO] [Validation] All validations succeeded
+[2025-01-13T14:31:15.275Z] [INFO] [Build] Parsing application info
+[2025-01-13T14:31:15.284Z] [INFO] [Build] Template version: 14.0.5
+[2025-01-13T14:31:15.284Z] [INFO] [Build] Build features: cordovaNoFetch - true
+[2025-01-13T14:31:15.284Z] [INFO] [Build] Build features: buildTimeout - 20
+[2025-01-13T14:31:15.285Z] [INFO] [Build] Start processing job request
+[2025-01-13T14:31:15.285Z] [INFO] [Build] Getting job resources
+[2025-01-13T14:31:15.290Z] [VERBOSE] [Build] Fetching android secret through aws secrets manager
+[2025-01-13T14:31:15.290Z] [INFO] [Build] Get Mime Type List
+[2025-01-13T14:31:15.520Z] [INFO] [Build] Start processing job request...
+[2025-01-13T14:31:15.573Z] [INFO] [Build] Creating a temporary folder for the application...
+[2025-01-13T14:31:15.575Z] [INFO] [Build] Start generating application...
+[2025-01-13T14:31:15.576Z] [VERBOSE] [Build] Application that will be built:
+[2025-01-13T14:31:15.576Z] [VERBOSE] [Build]  - app name: Arabic School for Teachers
+[2025-01-13T14:31:15.576Z] [VERBOSE] [Build]  - app package: com.kwalha.arabicschool
+[2025-01-13T14:31:15.576Z] [VERBOSE] [Build]  - app version: 10.9
+[2025-01-13T14:31:15.576Z] [VERBOSE] [Build]  - app version code: 284
+[2025-01-13T14:31:15.577Z] [VERBOSE] [Build]  - platform: android
+[2025-01-13T14:31:15.577Z] [VERBOSE] [Build]  - build type: bundle
+[2025-01-13T14:31:15.577Z] [VERBOSE] [Build]  - url hostname: personal-fjlz3d21.outsystemscloud.com
+[2025-01-13T14:31:15.577Z] [VERBOSE] [Build]  - url path: arabicschooln
+[2025-01-13T14:31:15.577Z] [VERBOSE] [Build] Requested by:
+[2025-01-13T14:31:15.577Z] [VERBOSE] [Build]  - requester id: 0ZY.AYT.PMG.JYD.W4H.HP5.NDO.AOU
+[2025-01-13T14:31:15.577Z] [VERBOSE] [Build]  - requester version: 11.31.0.43948
+[2025-01-13T14:31:15.577Z] [INFO] [Build] Creating the required directory structure for your cordova application...
+[2025-01-13T14:31:16.318Z] [VERBOSE] [Build] Using detached cordova-create
+[2025-01-13T14:31:16.319Z] [VERBOSE] [Build] Creating a new cordova project.
+[2025-01-13T14:31:16.322Z] [VERBOSE] [Build] Using cordova-fetch for @outsystems/cordova-mobile-template@14.0.5
+[2025-01-13T14:31:16.330Z] [VERBOSE] [Build] fetch: Installing @outsystems/cordova-mobile-template@14.0.5 to cordova-create--685305-ssg1imQ10TE6
+[2025-01-13T14:31:17.154Z] [VERBOSE] [Build] Copying assets.
+[2025-01-13T14:31:17.618Z] [INFO] [Build] Getting application resources...
+[2025-01-13T14:31:17.629Z] [INFO] [Build] Applying configurations in the config.xml file...
+[2025-01-13T14:31:17.630Z] [INFO] [Build] Applying advanced configurations in the config.xml file...
+[2025-01-13T14:31:17.630Z] [INFO] [Build] Applying application preferences...
+[2025-01-13T14:31:17.631Z] [INFO] [Build] Applying application resources...
+[2025-01-13T14:31:17.638Z] [INFO] [Build] Processing application resources...
+[2025-01-13T14:31:17.952Z] [INFO] [Build] Generating application icons...
+[2025-01-13T14:31:17.952Z] [INFO] [Build] Applying custom application splashscreens...
+[2025-01-13T14:31:18.048Z] [INFO] [Build] Adding target platform...
+[2025-01-13T14:31:18.808Z] [VERBOSE] [Build] Executing script found in config.xml for hook "before_platform_add": hooks/removeUserCertificates.js
+[2025-01-13T14:31:18.821Z] [VERBOSE] [Build] Removing user certificates from trust-anchors...
+[2025-01-13T14:31:18.825Z] [VERBOSE] [Build] Using cordova-fetch for cordova-android@OutSystems/cordova-android#13.0.0+1.0.0
+[2025-01-13T14:31:18.830Z] [VERBOSE] [Build] fetch: Installing cordova-android@OutSystems/cordova-android#13.0.0+1.0.0 to source
+[2025-01-13T14:31:18.840Z] [VERBOSE] [Build] User certificates were successfully removed from trust-anchors!
+[2025-01-13T14:31:30.836Z] [VERBOSE] [Build] Removing "cordova-" prefix from cordova-android
+[2025-01-13T14:31:30.837Z] [VERBOSE] [Build] Adding android project...
+[2025-01-13T14:31:30.981Z] [VERBOSE] [Build] Loaded API for android project source/node_modules/cordova-android
+[2025-01-13T14:31:31.004Z] [VERBOSE] [Build] Creating Cordova project for the Android platform:
+[2025-01-13T14:31:31.004Z] [VERBOSE] [Build] 	Path: platforms/android
+[2025-01-13T14:31:31.004Z] [VERBOSE] [Build] 	Package: com.kwalha.arabicschool
+[2025-01-13T14:31:31.005Z] [VERBOSE] [Build] 	Name: Arabic School for Teachers
+[2025-01-13T14:31:31.005Z] [VERBOSE] [Build] 	Activity: MainActivity
+[2025-01-13T14:31:31.005Z] [VERBOSE] [Build] 	Android Target SDK: android-35
+[2025-01-13T14:31:31.005Z] [VERBOSE] [Build] 	Android Compile SDK: 35
+[2025-01-13T14:31:31.005Z] [VERBOSE] [Build] Copying android template project to platforms/android
+[2025-01-13T14:31:31.245Z] [VERBOSE] [Build] [Cordova Gradle Config] Setting "PACKAGE_NAMESPACE" to com.kwalha.arabicschool
+[2025-01-13T14:31:31.245Z] [VERBOSE] [Build] [Cordova Gradle Config] Saving File
+[2025-01-13T14:31:31.271Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:31:31.272Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:31:31.272Z] [VERBOSE] [Build] Android project created with cordova-android@13.0.0+1.0.0
+[2025-01-13T14:31:31.280Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:31:31.289Z] [VERBOSE] [Build] Generating platform-specific config.xml from defaults for android at source/platforms/android/app/src/main/res/xml/config.xml
+[2025-01-13T14:31:31.289Z] [VERBOSE] [Build] Merging project's config.xml into platform-specific android config.xml
+[2025-01-13T14:31:31.300Z] [VERBOSE] [Build] [Gradle Properties] Preparing Configuration
+[2025-01-13T14:31:31.300Z] [VERBOSE] [Build] [Gradle Properties] File missing, creating file with Cordova defaults.
+[2025-01-13T14:31:31.300Z] [VERBOSE] [Build] [Gradle Properties] Appending default configuration properties
+[2025-01-13T14:31:31.301Z] [VERBOSE] [Build] [Gradle Properties] Appending configuration item: org.gradle.jvmargs=-Xmx2048m
+[2025-01-13T14:31:31.301Z] [VERBOSE] [Build] [Gradle Properties] Appending configuration item: android.useAndroidX=true
+[2025-01-13T14:31:31.301Z] [VERBOSE] [Build] [Gradle Properties] Appending custom configuration properties
+[2025-01-13T14:31:31.301Z] [VERBOSE] [Build] [Gradle Properties] Appending configuration item: kotlin.code.style=official
+[2025-01-13T14:31:31.301Z] [VERBOSE] [Build] [Gradle Properties] Updating and Saving File
+[2025-01-13T14:31:31.301Z] [VERBOSE] [Build] Merging and updating files from [www, platforms/android/platform_www] to platforms/android/app/src/main/assets/www
+[2025-01-13T14:31:31.323Z] [VERBOSE] [Build]   copy  www/_error.html platforms/android/app/src/main/assets/www/_error.html (new file)
+[2025-01-13T14:31:31.325Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/cordova.js platforms/android/app/src/main/assets/www/cordova.js (updated file)
+[2025-01-13T14:31:31.325Z] [VERBOSE] [Build]   copy  www/css/CKEditor5Classic.CKEditorFlow.CKEditor5CSSStyles.css platforms/android/app/src/main/assets/www/css/CKEditor5Classic.CKEditorFlow.CKEditor5CSSStyles.css (new file)
+[2025-01-13T14:31:31.327Z] [VERBOSE] [Build]   copy  www/css/CKEditor5Classic.CKEditorFlow.CKEditor5Classic.css platforms/android/app/src/main/assets/www/css/CKEditor5Classic.CKEditorFlow.CKEditor5Classic.css (new file)
+[2025-01-13T14:31:31.329Z] [VERBOSE] [Build]   copy  www/css/OutSystemsReactWidgets.css platforms/android/app/src/main/assets/www/css/OutSystemsReactWidgets.css (new file)
+[2025-01-13T14:31:31.331Z] [VERBOSE] [Build]   copy  www/css/OutSystemsUI.OutSystemsUI.css platforms/android/app/src/main/assets/www/css/OutSystemsUI.OutSystemsUI.css (new file)
+[2025-01-13T14:31:31.335Z] [VERBOSE] [Build]   copy  www/css/OutSystemsUI.OutSystemsUI.extra.css platforms/android/app/src/main/assets/www/css/OutSystemsUI.OutSystemsUI.extra.css (new file)
+[2025-01-13T14:31:31.336Z] [VERBOSE] [Build]   copy  www/css/TinyMCE.TinyWidget.Block1.css platforms/android/app/src/main/assets/www/css/TinyMCE.TinyWidget.Block1.css (new file)
+[2025-01-13T14:31:31.337Z] [VERBOSE] [Build]   copy  www/css/_Basic.css platforms/android/app/src/main/assets/www/css/_Basic.css (new file)
+[2025-01-13T14:31:31.339Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.ArabicSchool.css platforms/android/app/src/main/assets/www/css/arabicschooln.ArabicSchool.css (new file)
+[2025-01-13T14:31:31.340Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.BottomBar.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.BottomBar.css (new file)
+[2025-01-13T14:31:31.341Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.Layout.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.Layout.css (new file)
+[2025-01-13T14:31:31.342Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.LayoutBlank.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.LayoutBlank.css (new file)
+[2025-01-13T14:31:31.344Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.Layout_chat.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.Layout_chat.css (new file)
+[2025-01-13T14:31:31.346Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.Login.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.Login.css (new file)
+[2025-01-13T14:31:31.347Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.Menu.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.Menu.css (new file)
+[2025-01-13T14:31:31.348Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.MenuIcon.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.MenuIcon.css (new file)
+[2025-01-13T14:31:31.349Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.Splash.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.Splash.css (new file)
+[2025-01-13T14:31:31.351Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.maintenance.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.maintenance.css (new file)
+[2025-01-13T14:31:31.352Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Common.no_connection.css platforms/android/app/src/main/assets/www/css/arabicschooln.Common.no_connection.css (new file)
+[2025-01-13T14:31:31.353Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.EmailTheme.css platforms/android/app/src/main/assets/www/css/arabicschooln.EmailTheme.css (new file)
+[2025-01-13T14:31:31.355Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.EmailTheme.extra.css platforms/android/app/src/main/assets/www/css/arabicschooln.EmailTheme.extra.css (new file)
+[2025-01-13T14:31:31.356Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.Application_approved.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.Application_approved.css (new file)
+[2025-01-13T14:31:31.358Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.Application_recieved.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.Application_recieved.css (new file)
+[2025-01-13T14:31:31.359Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.Application_recievedteacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.Application_recievedteacher.css (new file)
+[2025-01-13T14:31:31.360Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.EOI.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.EOI.css (new file)
+[2025-01-13T14:31:31.362Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.EOI2.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.EOI2.css (new file)
+[2025-01-13T14:31:31.363Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.Invoice.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.Invoice.css (new file)
+[2025-01-13T14:31:31.364Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.backtoterm.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.backtoterm.css (new file)
+[2025-01-13T14:31:31.365Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.loginotp.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.loginotp.css (new file)
+[2025-01-13T14:31:31.366Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.reckonauth.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.reckonauth.css (new file)
+[2025-01-13T14:31:31.367Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.send_as_email.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.send_as_email.css (new file)
+[2025-01-13T14:31:31.369Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.Emails.send_file.css platforms/android/app/src/main/assets/www/css/arabicschooln.Emails.send_file.css (new file)
+[2025-01-13T14:31:31.370Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Calendar.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Calendar.css (new file)
+[2025-01-13T14:31:31.371Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Calendar_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Calendar_teacher.css (new file)
+[2025-01-13T14:31:31.372Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Change_classeroom.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Change_classeroom.css (new file)
+[2025-01-13T14:31:31.373Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Change_classeroom_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Change_classeroom_teacher.css (new file)
+[2025-01-13T14:31:31.374Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Classrooms.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Classrooms.css (new file)
+[2025-01-13T14:31:31.376Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.ColorPicker.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.ColorPicker.css (new file)
+[2025-01-13T14:31:31.377Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Competition.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Competition.css (new file)
+[2025-01-13T14:31:31.378Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Competition_teachers.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Competition_teachers.css (new file)
+[2025-01-13T14:31:31.379Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.CreatePost.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.CreatePost.css (new file)
+[2025-01-13T14:31:31.380Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.CreatePost_Teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.CreatePost_Teacher.css (new file)
+[2025-01-13T14:31:31.381Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Createupdate_student.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Createupdate_student.css (new file)
+[2025-01-13T14:31:31.382Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Createupdate_user.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Createupdate_user.css (new file)
+[2025-01-13T14:31:31.384Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Createupdate_user_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Createupdate_user_teacher.css (new file)
+[2025-01-13T14:31:31.385Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.EOImail.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.EOImail.css (new file)
+[2025-01-13T14:31:31.386Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.EditPost.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.EditPost.css (new file)
+[2025-01-13T14:31:31.387Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.EditPost_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.EditPost_teacher.css (new file)
+[2025-01-13T14:31:31.389Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.HTMLViewer.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.HTMLViewer.css (new file)
+[2025-01-13T14:31:31.390Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Home.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Home.css (new file)
+[2025-01-13T14:31:31.391Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.IndividualInput.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.IndividualInput.css (new file)
+[2025-01-13T14:31:31.393Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Pending_reports.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Pending_reports.css (new file)
+[2025-01-13T14:31:31.395Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Pending_reports_class.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Pending_reports_class.css (new file)
+[2025-01-13T14:31:31.396Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.PostImage.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.PostImage.css (new file)
+[2025-01-13T14:31:31.397Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.PostImage_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.PostImage_teacher.css (new file)
+[2025-01-13T14:31:31.398Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.SkeletonCSS.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.SkeletonCSS.css (new file)
+[2025-01-13T14:31:31.399Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Student_Details.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Student_Details.css (new file)
+[2025-01-13T14:31:31.400Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Students.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Students.css (new file)
+[2025-01-13T14:31:31.402Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Teacher_Home.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Teacher_Home.css (new file)
+[2025-01-13T14:31:31.403Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Teachers.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Teachers.css (new file)
+[2025-01-13T14:31:31.404Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Unpaid_Students.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Unpaid_Students.css (new file)
+[2025-01-13T14:31:31.405Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.Uploadtosharepoint.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.Uploadtosharepoint.css (new file)
+[2025-01-13T14:31:31.406Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.User_Details.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.User_Details.css (new file)
+[2025-01-13T14:31:31.408Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.YearPicker.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.YearPicker.css (new file)
+[2025-01-13T14:31:31.409Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.ZoomImage.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.ZoomImage.css (new file)
+[2025-01-13T14:31:31.410Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.appointment.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.appointment.css (new file)
+[2025-01-13T14:31:31.412Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.appointment_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.appointment_teacher.css (new file)
+[2025-01-13T14:31:31.413Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.chat.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.chat.css (new file)
+[2025-01-13T14:31:31.415Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.chat_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.chat_teacher.css (new file)
+[2025-01-13T14:31:31.416Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.chats.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.chats.css (new file)
+[2025-01-13T14:31:31.417Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.chats_teachers.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.chats_teachers.css (new file)
+[2025-01-13T14:31:31.418Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.class_details.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.class_details.css (new file)
+[2025-01-13T14:31:31.419Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.createupdate_class.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.createupdate_class.css (new file)
+[2025-01-13T14:31:31.420Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.feed.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.feed.css (new file)
+[2025-01-13T14:31:31.422Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.feed_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.feed_teacher.css (new file)
+[2025-01-13T14:31:31.423Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.feedpost.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.feedpost.css (new file)
+[2025-01-13T14:31:31.424Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.feedpost_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.feedpost_teacher.css (new file)
+[2025-01-13T14:31:31.426Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.homeworkdetail.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.homeworkdetail.css (new file)
+[2025-01-13T14:31:31.427Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.homeworkdetail_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.homeworkdetail_teacher.css (new file)
+[2025-01-13T14:31:31.428Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.hwsubview.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.hwsubview.css (new file)
+[2025-01-13T14:31:31.429Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.map.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.map.css (new file)
+[2025-01-13T14:31:31.431Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.my_class.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.my_class.css (new file)
+[2025-01-13T14:31:31.432Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.notifications.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.notifications.css (new file)
+[2025-01-13T14:31:31.433Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.notifications_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.notifications_teacher.css (new file)
+[2025-01-13T14:31:31.434Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.photohistory.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.photohistory.css (new file)
+[2025-01-13T14:31:31.436Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.postmedia.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.postmedia.css (new file)
+[2025-01-13T14:31:31.437Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.postviews.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.postviews.css (new file)
+[2025-01-13T14:31:31.438Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.postviews_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.postviews_teacher.css (new file)
+[2025-01-13T14:31:31.439Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.ranking.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.ranking.css (new file)
+[2025-01-13T14:31:31.440Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.ranking_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.ranking_teacher.css (new file)
+[2025-01-13T14:31:31.441Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.sharepointlist.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.sharepointlist.css (new file)
+[2025-01-13T14:31:31.443Z] [VERBOSE] [Build]   copy  www/css/arabicschooln.MainFlow.student_details_teacher.css platforms/android/app/src/main/assets/www/css/arabicschooln.MainFlow.student_details_teacher.css (new file)
+[2025-01-13T14:31:31.444Z] [VERBOSE] [Build]   copy  www/css/error-style.css platforms/android/app/src/main/assets/www/css/error-style.css (new file)
+[2025-01-13T14:31:31.444Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/assets/www/css/index.css (no source)
+[2025-01-13T14:31:31.445Z] [VERBOSE] [Build]   copy  www/error.html platforms/android/app/src/main/assets/www/error.html (new file)
+[2025-01-13T14:31:31.445Z] [VERBOSE] [Build]   mkdir platforms/android/app/src/main/assets/www/fonts
+[2025-01-13T14:31:31.445Z] [VERBOSE] [Build]   copy  www/fonts/fontawesome-webfont.woff platforms/android/app/src/main/assets/www/fonts/fontawesome-webfont.woff (new file)
+[2025-01-13T14:31:31.447Z] [VERBOSE] [Build]   copy  www/fonts/fontawesome-webfont.woff2 platforms/android/app/src/main/assets/www/fonts/fontawesome-webfont.woff2 (new file)
+[2025-01-13T14:31:31.448Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Animation1714608369633.gif platforms/android/app/src/main/assets/www/img/arabicschooln.Animation1714608369633.gif (new file)
+[2025-01-13T14:31:31.450Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Attendance.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.Attendance.jpg (new file)
+[2025-01-13T14:31:31.451Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.EOI.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.EOI.jpg (new file)
+[2025-01-13T14:31:31.452Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Enrolment.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.Enrolment.jpg (new file)
+[2025-01-13T14:31:31.453Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Image2.png platforms/android/app/src/main/assets/www/img/arabicschooln.Image2.png (new file)
+[2025-01-13T14:31:31.455Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Logo.png platforms/android/app/src/main/assets/www/img/arabicschooln.Logo.png (new file)
+[2025-01-13T14:31:31.456Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Map.png platforms/android/app/src/main/assets/www/img/arabicschooln.Map.png (new file)
+[2025-01-13T14:31:31.458Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Microsoft_logo_svg.png platforms/android/app/src/main/assets/www/img/arabicschooln.Microsoft_logo_svg.png (new file)
+[2025-01-13T14:31:31.460Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Parent.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.Parent.jpg (new file)
+[2025-01-13T14:31:31.461Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Present.png platforms/android/app/src/main/assets/www/img/arabicschooln.Present.png (new file)
+[2025-01-13T14:31:31.462Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Present2.png platforms/android/app/src/main/assets/www/img/arabicschooln.Present2.png (new file)
+[2025-01-13T14:31:31.464Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Rolling0_5s147px.gif platforms/android/app/src/main/assets/www/img/arabicschooln.Rolling0_5s147px.gif (new file)
+[2025-01-13T14:31:31.465Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.STUDENT_4_.png platforms/android/app/src/main/assets/www/img/arabicschooln.STUDENT_4_.png (new file)
+[2025-01-13T14:31:31.468Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.School1.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.School1.jpg (new file)
+[2025-01-13T14:31:31.469Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Student.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.Student.jpg (new file)
+[2025-01-13T14:31:31.471Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.Untitleddesign_3_.png platforms/android/app/src/main/assets/www/img/arabicschooln.Untitleddesign_3_.png (new file)
+[2025-01-13T14:31:31.472Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.User.png platforms/android/app/src/main/assets/www/img/arabicschooln.User.png (new file)
+[2025-01-13T14:31:31.474Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.WE1Aht0Lm.gif platforms/android/app/src/main/assets/www/img/arabicschooln.WE1Aht0Lm.gif (new file)
+[2025-01-13T14:31:31.476Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.absent.png platforms/android/app/src/main/assets/www/img/arabicschooln.absent.png (new file)
+[2025-01-13T14:31:31.478Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.alertcircle.svg platforms/android/app/src/main/assets/www/img/arabicschooln.alertcircle.svg (new file)
+[2025-01-13T14:31:31.479Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.alertcircle_4_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.alertcircle_4_.svg (new file)
+[2025-01-13T14:31:31.480Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.alertcirclered.svg platforms/android/app/src/main/assets/www/img/arabicschooln.alertcirclered.svg (new file)
+[2025-01-13T14:31:31.481Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.alerttriangle.svg platforms/android/app/src/main/assets/www/img/arabicschooln.alerttriangle.svg (new file)
+[2025-01-13T14:31:31.483Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.alignjustify.svg platforms/android/app/src/main/assets/www/img/arabicschooln.alignjustify.svg (new file)
+[2025-01-13T14:31:31.484Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.aperture.svg platforms/android/app/src/main/assets/www/img/arabicschooln.aperture.svg (new file)
+[2025-01-13T14:31:31.486Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.aperture2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.aperture2.svg (new file)
+[2025-01-13T14:31:31.487Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arabicschool1.png platforms/android/app/src/main/assets/www/img/arabicschooln.arabicschool1.png (new file)
+[2025-01-13T14:31:31.489Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arabicschool1_1_.png platforms/android/app/src/main/assets/www/img/arabicschooln.arabicschool1_1_.png (new file)
+[2025-01-13T14:31:31.490Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arrowdown_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.arrowdown_1_.svg (new file)
+[2025-01-13T14:31:31.491Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arrowleft.svg platforms/android/app/src/main/assets/www/img/arabicschooln.arrowleft.svg (new file)
+[2025-01-13T14:31:31.492Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arrowleft2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.arrowleft2.svg (new file)
+[2025-01-13T14:31:31.493Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arrowleft_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.arrowleft_1_.svg (new file)
+[2025-01-13T14:31:31.495Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arrowup.svg platforms/android/app/src/main/assets/www/img/arabicschooln.arrowup.svg (new file)
+[2025-01-13T14:31:31.496Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arrowup_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.arrowup_1_.svg (new file)
+[2025-01-13T14:31:31.497Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.arrowupcircle.svg platforms/android/app/src/main/assets/www/img/arabicschooln.arrowupcircle.svg (new file)
+[2025-01-13T14:31:31.498Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.barchart.svg platforms/android/app/src/main/assets/www/img/arabicschooln.barchart.svg (new file)
+[2025-01-13T14:31:31.499Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.barchart2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.barchart2.svg (new file)
+[2025-01-13T14:31:31.500Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.barchart3.svg platforms/android/app/src/main/assets/www/img/arabicschooln.barchart3.svg (new file)
+[2025-01-13T14:31:31.501Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.barchart_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.barchart_1_.svg (new file)
+[2025-01-13T14:31:31.502Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.bellwhite.svg platforms/android/app/src/main/assets/www/img/arabicschooln.bellwhite.svg (new file)
+[2025-01-13T14:31:31.504Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.black.png platforms/android/app/src/main/assets/www/img/arabicschooln.black.png (new file)
+[2025-01-13T14:31:31.505Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.bookopen.svg platforms/android/app/src/main/assets/www/img/arabicschooln.bookopen.svg (new file)
+[2025-01-13T14:31:31.506Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.bookopen2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.bookopen2.svg (new file)
+[2025-01-13T14:31:31.507Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.calendar.svg platforms/android/app/src/main/assets/www/img/arabicschooln.calendar.svg (new file)
+[2025-01-13T14:31:31.508Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.calendar_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.calendar_1_.svg (new file)
+[2025-01-13T14:31:31.509Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.calendar_2_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.calendar_2_.svg (new file)
+[2025-01-13T14:31:31.511Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.calendar_3_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.calendar_3_.svg (new file)
+[2025-01-13T14:31:31.512Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.check_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.check_1_.svg (new file)
+[2025-01-13T14:31:31.513Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.check_3_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.check_3_.svg (new file)
+[2025-01-13T14:31:31.514Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.checkcircle.svg platforms/android/app/src/main/assets/www/img/arabicschooln.checkcircle.svg (new file)
+[2025-01-13T14:31:31.515Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.checkcircle2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.checkcircle2.svg (new file)
+[2025-01-13T14:31:31.516Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.checkcircle_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.checkcircle_1_.svg (new file)
+[2025-01-13T14:31:31.518Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.clock_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.clock_1_.svg (new file)
+[2025-01-13T14:31:31.519Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.copy.svg platforms/android/app/src/main/assets/www/img/arabicschooln.copy.svg (new file)
+[2025-01-13T14:31:31.520Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.cornerdownright.svg platforms/android/app/src/main/assets/www/img/arabicschooln.cornerdownright.svg (new file)
+[2025-01-13T14:31:31.522Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.dollarsign.svg platforms/android/app/src/main/assets/www/img/arabicschooln.dollarsign.svg (new file)
+[2025-01-13T14:31:31.523Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.download.png platforms/android/app/src/main/assets/www/img/arabicschooln.download.png (new file)
+[2025-01-13T14:31:31.525Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.download2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.download2.svg (new file)
+[2025-01-13T14:31:31.526Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.download_3_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.download_3_.svg (new file)
+[2025-01-13T14:31:31.527Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.edit.svg platforms/android/app/src/main/assets/www/img/arabicschooln.edit.svg (new file)
+[2025-01-13T14:31:31.529Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.edit3.svg platforms/android/app/src/main/assets/www/img/arabicschooln.edit3.svg (new file)
+[2025-01-13T14:31:31.530Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.edit_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.edit_1_.svg (new file)
+[2025-01-13T14:31:31.531Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.edit_7_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.edit_7_.svg (new file)
+[2025-01-13T14:31:31.532Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.excel.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.excel.jpg (new file)
+[2025-01-13T14:31:31.533Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.eye.svg platforms/android/app/src/main/assets/www/img/arabicschooln.eye.svg (new file)
+[2025-01-13T14:31:31.535Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.facebook.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.facebook.jpg (new file)
+[2025-01-13T14:31:31.536Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.file.png platforms/android/app/src/main/assets/www/img/arabicschooln.file.png (new file)
+[2025-01-13T14:31:31.538Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.filetext_4_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.filetext_4_.svg (new file)
+[2025-01-13T14:31:31.539Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.filter.svg platforms/android/app/src/main/assets/www/img/arabicschooln.filter.svg (new file)
+[2025-01-13T14:31:31.540Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.globe.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.globe.jpg (new file)
+[2025-01-13T14:31:31.542Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.googleplaybadge2.png platforms/android/app/src/main/assets/www/img/arabicschooln.googleplaybadge2.png (new file)
+[2025-01-13T14:31:31.543Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.green.png platforms/android/app/src/main/assets/www/img/arabicschooln.green.png (new file)
+[2025-01-13T14:31:31.545Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.grid.svg platforms/android/app/src/main/assets/www/img/arabicschooln.grid.svg (new file)
+[2025-01-13T14:31:31.546Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.helpcircle.svg platforms/android/app/src/main/assets/www/img/arabicschooln.helpcircle.svg (new file)
+[2025-01-13T14:31:31.547Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.home.svg platforms/android/app/src/main/assets/www/img/arabicschooln.home.svg (new file)
+[2025-01-13T14:31:31.548Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.iconmonstrfavorite3_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.iconmonstrfavorite3_1_.svg (new file)
+[2025-01-13T14:31:31.549Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.iconmonstrfavorite4_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.iconmonstrfavorite4_1_.svg (new file)
+[2025-01-13T14:31:31.551Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.icons8idnotverified48.png platforms/android/app/src/main/assets/www/img/arabicschooln.icons8idnotverified48.png (new file)
+[2025-01-13T14:31:31.553Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.image.png platforms/android/app/src/main/assets/www/img/arabicschooln.image.png (new file)
+[2025-01-13T14:31:31.553Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.image6.png platforms/android/app/src/main/assets/www/img/arabicschooln.image6.png (new file)
+[2025-01-13T14:31:31.554Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.image_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.image_1_.svg (new file)
+[2025-01-13T14:31:31.556Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.img.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.img.jpg (new file)
+[2025-01-13T14:31:31.557Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.inbox.svg platforms/android/app/src/main/assets/www/img/arabicschooln.inbox.svg (new file)
+[2025-01-13T14:31:31.558Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.inbox_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.inbox_1_.svg (new file)
+[2025-01-13T14:31:31.560Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.info.svg platforms/android/app/src/main/assets/www/img/arabicschooln.info.svg (new file)
+[2025-01-13T14:31:31.561Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.instagram.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.instagram.jpg (new file)
+[2025-01-13T14:31:31.563Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.layers.svg platforms/android/app/src/main/assets/www/img/arabicschooln.layers.svg (new file)
+[2025-01-13T14:31:31.564Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.loading.svg platforms/android/app/src/main/assets/www/img/arabicschooln.loading.svg (new file)
+[2025-01-13T14:31:31.565Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.loading_white.gif platforms/android/app/src/main/assets/www/img/arabicschooln.loading_white.gif (new file)
+[2025-01-13T14:31:31.566Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.login.png platforms/android/app/src/main/assets/www/img/arabicschooln.login.png (new file)
+[2025-01-13T14:31:31.567Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.login1.svg platforms/android/app/src/main/assets/www/img/arabicschooln.login1.svg (new file)
+[2025-01-13T14:31:31.569Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.logo_static.png platforms/android/app/src/main/assets/www/img/arabicschooln.logo_static.png (new file)
+[2025-01-13T14:31:31.571Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.mail.svg platforms/android/app/src/main/assets/www/img/arabicschooln.mail.svg (new file)
+[2025-01-13T14:31:31.572Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.mail2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.mail2.svg (new file)
+[2025-01-13T14:31:31.574Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.mappin.svg platforms/android/app/src/main/assets/www/img/arabicschooln.mappin.svg (new file)
+[2025-01-13T14:31:31.576Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.messagecircle.svg platforms/android/app/src/main/assets/www/img/arabicschooln.messagecircle.svg (new file)
+[2025-01-13T14:31:31.577Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.minus.svg platforms/android/app/src/main/assets/www/img/arabicschooln.minus.svg (new file)
+[2025-01-13T14:31:31.578Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.morehorizontal_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.morehorizontal_1_.svg (new file)
+[2025-01-13T14:31:31.580Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.morevertical_2_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.morevertical_2_.svg (new file)
+[2025-01-13T14:31:31.581Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.noimg.png platforms/android/app/src/main/assets/www/img/arabicschooln.noimg.png (new file)
+[2025-01-13T14:31:31.582Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.nointernet.gif platforms/android/app/src/main/assets/www/img/arabicschooln.nointernet.gif (new file)
+[2025-01-13T14:31:31.584Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.nopermission.gif platforms/android/app/src/main/assets/www/img/arabicschooln.nopermission.gif (new file)
+[2025-01-13T14:31:31.585Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.pdf.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.pdf.jpg (new file)
+[2025-01-13T14:31:31.587Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.phoneoutgoing.svg platforms/android/app/src/main/assets/www/img/arabicschooln.phoneoutgoing.svg (new file)
+[2025-01-13T14:31:31.588Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.plus.svg platforms/android/app/src/main/assets/www/img/arabicschooln.plus.svg (new file)
+[2025-01-13T14:31:31.589Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.plus_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.plus_1_.svg (new file)
+[2025-01-13T14:31:31.590Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.pluscircle.svg platforms/android/app/src/main/assets/www/img/arabicschooln.pluscircle.svg (new file)
+[2025-01-13T14:31:31.591Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.pluscircle_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.pluscircle_1_.svg (new file)
+[2025-01-13T14:31:31.593Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.pluscircle_2_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.pluscircle_2_.svg (new file)
+[2025-01-13T14:31:31.594Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.pluscircle_3_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.pluscircle_3_.svg (new file)
+[2025-01-13T14:31:31.595Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.pluscircle_5_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.pluscircle_5_.svg (new file)
+[2025-01-13T14:31:31.597Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.pluscircle_6_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.pluscircle_6_.svg (new file)
+[2025-01-13T14:31:31.598Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.powerpoint.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.powerpoint.jpg (new file)
+[2025-01-13T14:31:31.599Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.radio.svg platforms/android/app/src/main/assets/www/img/arabicschooln.radio.svg (new file)
+[2025-01-13T14:31:31.600Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.radio_2_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.radio_2_.svg (new file)
+[2025-01-13T14:31:31.602Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.repeat.svg platforms/android/app/src/main/assets/www/img/arabicschooln.repeat.svg (new file)
+[2025-01-13T14:31:31.603Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.repeat_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.repeat_1_.svg (new file)
+[2025-01-13T14:31:31.604Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.rotateccw.svg platforms/android/app/src/main/assets/www/img/arabicschooln.rotateccw.svg (new file)
+[2025-01-13T14:31:31.605Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.rotatecw.svg platforms/android/app/src/main/assets/www/img/arabicschooln.rotatecw.svg (new file)
+[2025-01-13T14:31:31.607Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.scanner_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.scanner_1_.svg (new file)
+[2025-01-13T14:31:31.608Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.send_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.send_1_.svg (new file)
+[2025-01-13T14:31:31.609Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.serviceNSW.png platforms/android/app/src/main/assets/www/img/arabicschooln.serviceNSW.png (new file)
+[2025-01-13T14:31:31.611Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.serviceNSW2.png platforms/android/app/src/main/assets/www/img/arabicschooln.serviceNSW2.png (new file)
+[2025-01-13T14:31:31.612Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.share.svg platforms/android/app/src/main/assets/www/img/arabicschooln.share.svg (new file)
+[2025-01-13T14:31:31.613Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.share2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.share2.svg (new file)
+[2025-01-13T14:31:31.614Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.share_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.share_1_.svg (new file)
+[2025-01-13T14:31:31.615Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.star.svg platforms/android/app/src/main/assets/www/img/arabicschooln.star.svg (new file)
+[2025-01-13T14:31:31.616Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.success.gif platforms/android/app/src/main/assets/www/img/arabicschooln.success.gif (new file)
+[2025-01-13T14:31:31.617Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.trash2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.trash2.svg (new file)
+[2025-01-13T14:31:31.618Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.trash2_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.trash2_1_.svg (new file)
+[2025-01-13T14:31:31.620Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.uploadcloud_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.uploadcloud_1_.svg (new file)
+[2025-01-13T14:31:31.621Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.user2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.user2.svg (new file)
+[2025-01-13T14:31:31.622Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.user3.svg platforms/android/app/src/main/assets/www/img/arabicschooln.user3.svg (new file)
+[2025-01-13T14:31:31.623Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.users.svg platforms/android/app/src/main/assets/www/img/arabicschooln.users.svg (new file)
+[2025-01-13T14:31:31.624Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.users2.svg platforms/android/app/src/main/assets/www/img/arabicschooln.users2.svg (new file)
+[2025-01-13T14:31:31.625Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.vedio.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.vedio.jpg (new file)
+[2025-01-13T14:31:31.627Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.word.jpg platforms/android/app/src/main/assets/www/img/arabicschooln.word.jpg (new file)
+[2025-01-13T14:31:31.628Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.x.svg platforms/android/app/src/main/assets/www/img/arabicschooln.x.svg (new file)
+[2025-01-13T14:31:31.629Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.x_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.x_1_.svg (new file)
+[2025-01-13T14:31:31.630Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.x_3_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.x_3_.svg (new file)
+[2025-01-13T14:31:31.631Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.x_6_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.x_6_.svg (new file)
+[2025-01-13T14:31:31.632Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.x_7_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.x_7_.svg (new file)
+[2025-01-13T14:31:31.633Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.xcircle.svg platforms/android/app/src/main/assets/www/img/arabicschooln.xcircle.svg (new file)
+[2025-01-13T14:31:31.635Z] [VERBOSE] [Build]   copy  www/img/arabicschooln.xcircle_1_.svg platforms/android/app/src/main/assets/www/img/arabicschooln.xcircle_1_.svg (new file)
+[2025-01-13T14:31:31.636Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/assets/www/img/cordova.png (no source)
+[2025-01-13T14:31:31.636Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/assets/www/img/logo.png (no source)
+[2025-01-13T14:31:31.636Z] [VERBOSE] [Build]   copy  www/index.html platforms/android/app/src/main/assets/www/index.html (updated file)
+[2025-01-13T14:31:31.637Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/assets/www/js (no source)
+[2025-01-13T14:31:31.638Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/assets/www/js/index.js (no source)
+[2025-01-13T14:31:31.639Z] [VERBOSE] [Build]   copy  www/manifest.json platforms/android/app/src/main/assets/www/manifest.json (new file)
+[2025-01-13T14:31:31.641Z] [VERBOSE] [Build]   copy  www/mimetypes.manifest platforms/android/app/src/main/assets/www/mimetypes.manifest (new file)
+[2025-01-13T14:31:31.641Z] [VERBOSE] [Build]   mkdir platforms/android/app/src/main/assets/www/scripts
+[2025-01-13T14:31:31.641Z] [VERBOSE] [Build]   copy  www/scripts/AppVersionPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/AppVersionPlugin.controller.js (new file)
+[2025-01-13T14:31:31.643Z] [VERBOSE] [Build]   copy  www/scripts/AppVersionPlugin.model.js platforms/android/app/src/main/assets/www/scripts/AppVersionPlugin.model.js (new file)
+[2025-01-13T14:31:31.644Z] [VERBOSE] [Build]   copy  www/scripts/AppVersionPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/AppVersionPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.645Z] [VERBOSE] [Build]   copy  www/scripts/BarcodePlugin.OSBarcodePlugin.js platforms/android/app/src/main/assets/www/scripts/BarcodePlugin.OSBarcodePlugin.js (new file)
+[2025-01-13T14:31:31.648Z] [VERBOSE] [Build]   copy  www/scripts/BarcodePlugin.controller.js platforms/android/app/src/main/assets/www/scripts/BarcodePlugin.controller.js (new file)
+[2025-01-13T14:31:31.649Z] [VERBOSE] [Build]   copy  www/scripts/BarcodePlugin.model.js platforms/android/app/src/main/assets/www/scripts/BarcodePlugin.model.js (new file)
+[2025-01-13T14:31:31.651Z] [VERBOSE] [Build]   copy  www/scripts/BarcodePlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/BarcodePlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.652Z] [VERBOSE] [Build]   copy  www/scripts/CKEditor5Classic.CKEditorFlow.CKEditor5CSSStyles.mvc.js platforms/android/app/src/main/assets/www/scripts/CKEditor5Classic.CKEditorFlow.CKEditor5CSSStyles.mvc.js (new file)
+[2025-01-13T14:31:31.653Z] [VERBOSE] [Build]   copy  www/scripts/CKEditor5Classic.CKEditorFlow.CKEditor5Classic.mvc.js platforms/android/app/src/main/assets/www/scripts/CKEditor5Classic.CKEditorFlow.CKEditor5Classic.mvc.js (new file)
+[2025-01-13T14:31:31.654Z] [VERBOSE] [Build]   copy  www/scripts/CKEditor5Classic.ckeditor.js platforms/android/app/src/main/assets/www/scripts/CKEditor5Classic.ckeditor.js (new file)
+[2025-01-13T14:31:31.658Z] [VERBOSE] [Build]   copy  www/scripts/CKEditor5Classic.controller.js platforms/android/app/src/main/assets/www/scripts/CKEditor5Classic.controller.js (new file)
+[2025-01-13T14:31:31.659Z] [VERBOSE] [Build]   copy  www/scripts/CKEditor5Classic.languageResources.js platforms/android/app/src/main/assets/www/scripts/CKEditor5Classic.languageResources.js (new file)
+[2025-01-13T14:31:31.661Z] [VERBOSE] [Build]   copy  www/scripts/CKEditor5Classic.model.js platforms/android/app/src/main/assets/www/scripts/CKEditor5Classic.model.js (new file)
+[2025-01-13T14:31:31.662Z] [VERBOSE] [Build]   copy  www/scripts/CKEditor5Classic.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/CKEditor5Classic.referencesHealth.js (new file)
+[2025-01-13T14:31:31.663Z] [VERBOSE] [Build]   copy  www/scripts/CallDirect.controller.js platforms/android/app/src/main/assets/www/scripts/CallDirect.controller.js (new file)
+[2025-01-13T14:31:31.664Z] [VERBOSE] [Build]   copy  www/scripts/CallDirect.model.js platforms/android/app/src/main/assets/www/scripts/CallDirect.model.js (new file)
+[2025-01-13T14:31:31.665Z] [VERBOSE] [Build]   copy  www/scripts/CallDirect.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/CallDirect.referencesHealth.js (new file)
+[2025-01-13T14:31:31.667Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.Camera.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.Camera.js (new file)
+[2025-01-13T14:31:31.668Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.CameraStream.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.CameraStream.js (new file)
+[2025-01-13T14:31:31.669Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.Cropper.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.Cropper.js (new file)
+[2025-01-13T14:31:31.671Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.Errors.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.Errors.js (new file)
+[2025-01-13T14:31:31.672Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.ImageEditor.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.ImageEditor.js (new file)
+[2025-01-13T14:31:31.673Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.NativeCamera.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.NativeCamera.js (new file)
+[2025-01-13T14:31:31.675Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.controller.js (new file)
+[2025-01-13T14:31:31.676Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.model.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.model.js (new file)
+[2025-01-13T14:31:31.678Z] [VERBOSE] [Build]   copy  www/scripts/CameraPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/CameraPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.679Z] [VERBOSE] [Build]   copy  www/scripts/CommonPlugin.PluginManager.js platforms/android/app/src/main/assets/www/scripts/CommonPlugin.PluginManager.js (new file)
+[2025-01-13T14:31:31.680Z] [VERBOSE] [Build]   copy  www/scripts/CommonPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/CommonPlugin.controller.js (new file)
+[2025-01-13T14:31:31.682Z] [VERBOSE] [Build]   copy  www/scripts/CommonPlugin.model.js platforms/android/app/src/main/assets/www/scripts/CommonPlugin.model.js (new file)
+[2025-01-13T14:31:31.683Z] [VERBOSE] [Build]   copy  www/scripts/CommonPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/CommonPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.684Z] [VERBOSE] [Build]   copy  www/scripts/Extension.AdvancedREST.model.js platforms/android/app/src/main/assets/www/scripts/Extension.AdvancedREST.model.js (new file)
+[2025-01-13T14:31:31.686Z] [VERBOSE] [Build]   copy  www/scripts/Extension.AzureBlobStorage.model.js platforms/android/app/src/main/assets/www/scripts/Extension.AzureBlobStorage.model.js (new file)
+[2025-01-13T14:31:31.687Z] [VERBOSE] [Build]   copy  www/scripts/Extension.Azure_SQL_DRV.model.js platforms/android/app/src/main/assets/www/scripts/Extension.Azure_SQL_DRV.model.js (new file)
+[2025-01-13T14:31:31.688Z] [VERBOSE] [Build]   copy  www/scripts/Extension.DistanceFromCoordinate.model.js platforms/android/app/src/main/assets/www/scripts/Extension.DistanceFromCoordinate.model.js (new file)
+[2025-01-13T14:31:31.690Z] [VERBOSE] [Build]   copy  www/scripts/Extension.FileExtension.model.js platforms/android/app/src/main/assets/www/scripts/Extension.FileExtension.model.js (new file)
+[2025-01-13T14:31:31.691Z] [VERBOSE] [Build]   copy  www/scripts/Extension.HtmlUtils.model.js platforms/android/app/src/main/assets/www/scripts/Extension.HtmlUtils.model.js (new file)
+[2025-01-13T14:31:31.692Z] [VERBOSE] [Build]   copy  www/scripts/Extension.ImageMagick.model.js platforms/android/app/src/main/assets/www/scripts/Extension.ImageMagick.model.js (new file)
+[2025-01-13T14:31:31.693Z] [VERBOSE] [Build]   copy  www/scripts/Extension.ImageToolbox.model.js platforms/android/app/src/main/assets/www/scripts/Extension.ImageToolbox.model.js (new file)
+[2025-01-13T14:31:31.694Z] [VERBOSE] [Build]   copy  www/scripts/Extension.MediaToolkit_Video.model.js platforms/android/app/src/main/assets/www/scripts/Extension.MediaToolkit_Video.model.js (new file)
+[2025-01-13T14:31:31.695Z] [VERBOSE] [Build]   copy  www/scripts/Extension.Sleep.model.js platforms/android/app/src/main/assets/www/scripts/Extension.Sleep.model.js (new file)
+[2025-01-13T14:31:31.697Z] [VERBOSE] [Build]   copy  www/scripts/Extension.datecons.model.js platforms/android/app/src/main/assets/www/scripts/Extension.datecons.model.js (new file)
+[2025-01-13T14:31:31.698Z] [VERBOSE] [Build]   copy  www/scripts/Extension.groupeo.model.js platforms/android/app/src/main/assets/www/scripts/Extension.groupeo.model.js (new file)
+[2025-01-13T14:31:31.699Z] [VERBOSE] [Build]   copy  www/scripts/Extension.mainstream.model.js platforms/android/app/src/main/assets/www/scripts/Extension.mainstream.model.js (new file)
+[2025-01-13T14:31:31.701Z] [VERBOSE] [Build]   copy  www/scripts/FilePlugin.controller.js platforms/android/app/src/main/assets/www/scripts/FilePlugin.controller.js (new file)
+[2025-01-13T14:31:31.702Z] [VERBOSE] [Build]   copy  www/scripts/FilePlugin.model.js platforms/android/app/src/main/assets/www/scripts/FilePlugin.model.js (new file)
+[2025-01-13T14:31:31.704Z] [VERBOSE] [Build]   copy  www/scripts/FilePlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/FilePlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.705Z] [VERBOSE] [Build]   copy  www/scripts/FileViewerPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/FileViewerPlugin.controller.js (new file)
+[2025-01-13T14:31:31.706Z] [VERBOSE] [Build]   copy  www/scripts/FileViewerPlugin.model.js platforms/android/app/src/main/assets/www/scripts/FileViewerPlugin.model.js (new file)
+[2025-01-13T14:31:31.708Z] [VERBOSE] [Build]   copy  www/scripts/FileViewerPlugin.osfileviewerlib_bundle.js platforms/android/app/src/main/assets/www/scripts/FileViewerPlugin.osfileviewerlib_bundle.js (new file)
+[2025-01-13T14:31:31.710Z] [VERBOSE] [Build]   copy  www/scripts/FileViewerPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/FileViewerPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.712Z] [VERBOSE] [Build]   copy  www/scripts/FullCalendarReactive.FullCalendarReactive.FullCalendar.mvc.js platforms/android/app/src/main/assets/www/scripts/FullCalendarReactive.FullCalendarReactive.FullCalendar.mvc.js (new file)
+[2025-01-13T14:31:31.713Z] [VERBOSE] [Build]   copy  www/scripts/FullCalendarReactive.FullCalendar_6_1_13.js platforms/android/app/src/main/assets/www/scripts/FullCalendarReactive.FullCalendar_6_1_13.js (new file)
+[2025-01-13T14:31:31.716Z] [VERBOSE] [Build]   copy  www/scripts/FullCalendarReactive.ICAL.js platforms/android/app/src/main/assets/www/scripts/FullCalendarReactive.ICAL.js (new file)
+[2025-01-13T14:31:31.717Z] [VERBOSE] [Build]   copy  www/scripts/FullCalendarReactive.ICalendar.js platforms/android/app/src/main/assets/www/scripts/FullCalendarReactive.ICalendar.js (new file)
+[2025-01-13T14:31:31.718Z] [VERBOSE] [Build]   copy  www/scripts/FullCalendarReactive.controller.js platforms/android/app/src/main/assets/www/scripts/FullCalendarReactive.controller.js (new file)
+[2025-01-13T14:31:31.720Z] [VERBOSE] [Build]   copy  www/scripts/FullCalendarReactive.languageResources.js platforms/android/app/src/main/assets/www/scripts/FullCalendarReactive.languageResources.js (new file)
+[2025-01-13T14:31:31.721Z] [VERBOSE] [Build]   copy  www/scripts/FullCalendarReactive.model.js platforms/android/app/src/main/assets/www/scripts/FullCalendarReactive.model.js (new file)
+[2025-01-13T14:31:31.722Z] [VERBOSE] [Build]   copy  www/scripts/FullCalendarReactive.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/FullCalendarReactive.referencesHealth.js (new file)
+[2025-01-13T14:31:31.723Z] [VERBOSE] [Build]   copy  www/scripts/InAppBrowserPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/InAppBrowserPlugin.controller.js (new file)
+[2025-01-13T14:31:31.724Z] [VERBOSE] [Build]   copy  www/scripts/InAppBrowserPlugin.model.js platforms/android/app/src/main/assets/www/scripts/InAppBrowserPlugin.model.js (new file)
+[2025-01-13T14:31:31.726Z] [VERBOSE] [Build]   copy  www/scripts/InAppBrowserPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/InAppBrowserPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.727Z] [VERBOSE] [Build]   copy  www/scripts/LICENSES.txt platforms/android/app/src/main/assets/www/scripts/LICENSES.txt (new file)
+[2025-01-13T14:31:31.728Z] [VERBOSE] [Build]   copy  www/scripts/LocationPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/LocationPlugin.controller.js (new file)
+[2025-01-13T14:31:31.730Z] [VERBOSE] [Build]   copy  www/scripts/LocationPlugin.model.js platforms/android/app/src/main/assets/www/scripts/LocationPlugin.model.js (new file)
+[2025-01-13T14:31:31.731Z] [VERBOSE] [Build]   copy  www/scripts/LocationPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/LocationPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.732Z] [VERBOSE] [Build]   copy  www/scripts/MSALPlugin.aggregates.SQL.js platforms/android/app/src/main/assets/www/scripts/MSALPlugin.aggregates.SQL.js (new file)
+[2025-01-13T14:31:31.733Z] [VERBOSE] [Build]   copy  www/scripts/MSALPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/MSALPlugin.controller.js (new file)
+[2025-01-13T14:31:31.735Z] [VERBOSE] [Build]   copy  www/scripts/MSALPlugin.model.js platforms/android/app/src/main/assets/www/scripts/MSALPlugin.model.js (new file)
+[2025-01-13T14:31:31.736Z] [VERBOSE] [Build]   copy  www/scripts/MSALPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/MSALPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.738Z] [VERBOSE] [Build]   copy  www/scripts/MSALReactive.controller.js platforms/android/app/src/main/assets/www/scripts/MSALReactive.controller.js (new file)
+[2025-01-13T14:31:31.739Z] [VERBOSE] [Build]   copy  www/scripts/MSALReactive.model.js platforms/android/app/src/main/assets/www/scripts/MSALReactive.model.js (new file)
+[2025-01-13T14:31:31.742Z] [VERBOSE] [Build]   copy  www/scripts/MSALReactive.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/MSALReactive.referencesHealth.js (new file)
+[2025-01-13T14:31:31.743Z] [VERBOSE] [Build]   copy  www/scripts/NullDebugger.js platforms/android/app/src/main/assets/www/scripts/NullDebugger.js (new file)
+[2025-01-13T14:31:31.745Z] [VERBOSE] [Build]   copy  www/scripts/OneSignalAPI.model.js platforms/android/app/src/main/assets/www/scripts/OneSignalAPI.model.js (new file)
+[2025-01-13T14:31:31.746Z] [VERBOSE] [Build]   copy  www/scripts/OneSignalAPI.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/OneSignalAPI.referencesHealth.js (new file)
+[2025-01-13T14:31:31.748Z] [VERBOSE] [Build]   copy  www/scripts/OneSignalPlugin.model.js platforms/android/app/src/main/assets/www/scripts/OneSignalPlugin.model.js (new file)
+[2025-01-13T14:31:31.749Z] [VERBOSE] [Build]   copy  www/scripts/OneSignalPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/OneSignalPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.750Z] [VERBOSE] [Build]   copy  www/scripts/OutSystems.js platforms/android/app/src/main/assets/www/scripts/OutSystems.js (new file)
+[2025-01-13T14:31:31.754Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsManifestLoader.js platforms/android/app/src/main/assets/www/scripts/OutSystemsManifestLoader.js (new file)
+[2025-01-13T14:31:31.755Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsReactView.js platforms/android/app/src/main/assets/www/scripts/OutSystemsReactView.js (new file)
+[2025-01-13T14:31:31.757Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsReactWidgets.js platforms/android/app/src/main/assets/www/scripts/OutSystemsReactWidgets.js (new file)
+[2025-01-13T14:31:31.759Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsSettings.js platforms/android/app/src/main/assets/www/scripts/OutSystemsSettings.js (new file)
+[2025-01-13T14:31:31.760Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Adaptive.Columns2.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Adaptive.Columns2.mvc.js (new file)
+[2025-01-13T14:31:31.761Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Adaptive.Columns3.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Adaptive.Columns3.mvc.js (new file)
+[2025-01-13T14:31:31.763Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Adaptive.Columns4.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Adaptive.Columns4.mvc.js (new file)
+[2025-01-13T14:31:31.764Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Adaptive.ColumnsMediumRight.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Adaptive.ColumnsMediumRight.mvc.js (new file)
+[2025-01-13T14:31:31.766Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Adaptive.ColumnsSmallLeft.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Adaptive.ColumnsSmallLeft.mvc.js (new file)
+[2025-01-13T14:31:31.767Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Adaptive.ColumnsSmallRight.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Adaptive.ColumnsSmallRight.mvc.js (new file)
+[2025-01-13T14:31:31.769Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Adaptive.Gallery.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Adaptive.Gallery.mvc.js (new file)
+[2025-01-13T14:31:31.770Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Content.Card.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Content.Card.mvc.js (new file)
+[2025-01-13T14:31:31.772Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Content.CardBackground.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Content.CardBackground.mvc.js (new file)
+[2025-01-13T14:31:31.773Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Content.CardSectioned.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Content.CardSectioned.mvc.js (new file)
+[2025-01-13T14:31:31.775Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Content.ChatMessage.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Content.ChatMessage.mvc.js (new file)
+[2025-01-13T14:31:31.776Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Content.FloatingContent.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Content.FloatingContent.mvc.js (new file)
+[2025-01-13T14:31:31.778Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Flatpickr.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Flatpickr.js (new file)
+[2025-01-13T14:31:31.779Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.FlatpickrLocale.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.FlatpickrLocale.js (new file)
+[2025-01-13T14:31:31.781Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.Animate.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.Animate.mvc.js (new file)
+[2025-01-13T14:31:31.782Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.BottomSheet.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.BottomSheet.mvc.js (new file)
+[2025-01-13T14:31:31.784Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.Carousel.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.Carousel.mvc.js (new file)
+[2025-01-13T14:31:31.785Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.DatePicker.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.DatePicker.mvc.js (new file)
+[2025-01-13T14:31:31.786Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.DatePickerRange.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.DatePickerRange.mvc.js (new file)
+[2025-01-13T14:31:31.787Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.DropdownSearch.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.DropdownSearch.mvc.js (new file)
+[2025-01-13T14:31:31.788Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.FloatingActions.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.FloatingActions.mvc.js (new file)
+[2025-01-13T14:31:31.790Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.FloatingActionsItem.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.FloatingActionsItem.mvc.js (new file)
+[2025-01-13T14:31:31.791Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.InputWithIcon.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.InputWithIcon.mvc.js (new file)
+[2025-01-13T14:31:31.792Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Interaction.Video.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Interaction.Video.mvc.js (new file)
+[2025-01-13T14:31:31.793Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.MWO.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.MWO.js (new file)
+[2025-01-13T14:31:31.795Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Navigation.BottomBarItem.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Navigation.BottomBarItem.mvc.js (new file)
+[2025-01-13T14:31:31.796Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Navigation.Submenu.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Navigation.Submenu.mvc.js (new file)
+[2025-01-13T14:31:31.797Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Navigation.Wizard.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Navigation.Wizard.mvc.js (new file)
+[2025-01-13T14:31:31.798Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Navigation.WizardItem.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Navigation.WizardItem.mvc.js (new file)
+[2025-01-13T14:31:31.799Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Numbers.ProgressBar.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Numbers.ProgressBar.mvc.js (new file)
+[2025-01-13T14:31:31.801Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.OfflineDataSync.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.OfflineDataSync.js (new file)
+[2025-01-13T14:31:31.802Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.OutSystemsUI.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.OutSystemsUI.js (new file)
+[2025-01-13T14:31:31.805Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Private.ApplicationLoadEvents.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Private.ApplicationLoadEvents.mvc.js (new file)
+[2025-01-13T14:31:31.806Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Private.MenuDrag.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Private.MenuDrag.mvc.js (new file)
+[2025-01-13T14:31:31.807Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Private.NetworkStatusChanged.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Private.NetworkStatusChanged.mvc.js (new file)
+[2025-01-13T14:31:31.809Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Private.OfflineDataSyncCore.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Private.OfflineDataSyncCore.mvc.js (new file)
+[2025-01-13T14:31:31.810Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Private.PullToRefresh.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Private.PullToRefresh.mvc.js (new file)
+[2025-01-13T14:31:31.811Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.PullToRefresh.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.PullToRefresh.js (new file)
+[2025-01-13T14:31:31.813Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Splide.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Splide.js (new file)
+[2025-01-13T14:31:31.814Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.TouchTrack.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.TouchTrack.js (new file)
+[2025-01-13T14:31:31.816Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Utilities.AlignCenter.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Utilities.AlignCenter.mvc.js (new file)
+[2025-01-13T14:31:31.817Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Utilities.ButtonLoading.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Utilities.ButtonLoading.mvc.js (new file)
+[2025-01-13T14:31:31.819Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Utilities.CenterContent.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Utilities.CenterContent.mvc.js (new file)
+[2025-01-13T14:31:31.820Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Utilities.Separator.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Utilities.Separator.mvc.js (new file)
+[2025-01-13T14:31:31.822Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Utilities.TouchEvents.mvc.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Utilities.TouchEvents.mvc.js (new file)
+[2025-01-13T14:31:31.823Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.Virtualselect.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.Virtualselect.js (new file)
+[2025-01-13T14:31:31.825Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.controller.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.controller.js (new file)
+[2025-01-13T14:31:31.828Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.languageResources.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.languageResources.js (new file)
+[2025-01-13T14:31:31.830Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.model.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.model.js (new file)
+[2025-01-13T14:31:31.832Z] [VERBOSE] [Build]   copy  www/scripts/OutSystemsUI.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/OutSystemsUI.referencesHealth.js (new file)
+[2025-01-13T14:31:31.833Z] [VERBOSE] [Build]   copy  www/scripts/ServiceCenter.model.js platforms/android/app/src/main/assets/www/scripts/ServiceCenter.model.js (new file)
+[2025-01-13T14:31:31.835Z] [VERBOSE] [Build]   copy  www/scripts/ServiceCenter.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/ServiceCenter.referencesHealth.js (new file)
+[2025-01-13T14:31:31.836Z] [VERBOSE] [Build]   copy  www/scripts/TinyMCE.TinyWidget.Block1.mvc.js platforms/android/app/src/main/assets/www/scripts/TinyMCE.TinyWidget.Block1.mvc.js (new file)
+[2025-01-13T14:31:31.837Z] [VERBOSE] [Build]   copy  www/scripts/TinyMCE.controller.js platforms/android/app/src/main/assets/www/scripts/TinyMCE.controller.js (new file)
+[2025-01-13T14:31:31.838Z] [VERBOSE] [Build]   copy  www/scripts/TinyMCE.languageResources.js platforms/android/app/src/main/assets/www/scripts/TinyMCE.languageResources.js (new file)
+[2025-01-13T14:31:31.839Z] [VERBOSE] [Build]   copy  www/scripts/TinyMCE.model.js platforms/android/app/src/main/assets/www/scripts/TinyMCE.model.js (new file)
+[2025-01-13T14:31:31.840Z] [VERBOSE] [Build]   copy  www/scripts/TinyMCE.model_min.js platforms/android/app/src/main/assets/www/scripts/TinyMCE.model_min.js (new file)
+[2025-01-13T14:31:31.842Z] [VERBOSE] [Build]   copy  www/scripts/TinyMCE.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/TinyMCE.referencesHealth.js (new file)
+[2025-01-13T14:31:31.843Z] [VERBOSE] [Build]   copy  www/scripts/TouchIdPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/TouchIdPlugin.controller.js (new file)
+[2025-01-13T14:31:31.844Z] [VERBOSE] [Build]   copy  www/scripts/TouchIdPlugin.model.js platforms/android/app/src/main/assets/www/scripts/TouchIdPlugin.model.js (new file)
+[2025-01-13T14:31:31.845Z] [VERBOSE] [Build]   copy  www/scripts/TouchIdPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/TouchIdPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.846Z] [VERBOSE] [Build]   copy  www/scripts/TransferPlugin.FileTransfer.HandleUpload.mvc.js platforms/android/app/src/main/assets/www/scripts/TransferPlugin.FileTransfer.HandleUpload.mvc.js (new file)
+[2025-01-13T14:31:31.848Z] [VERBOSE] [Build]   copy  www/scripts/TransferPlugin.FileTransfer_HandleUpload.js platforms/android/app/src/main/assets/www/scripts/TransferPlugin.FileTransfer_HandleUpload.js (new file)
+[2025-01-13T14:31:31.849Z] [VERBOSE] [Build]   copy  www/scripts/TransferPlugin.controller.js platforms/android/app/src/main/assets/www/scripts/TransferPlugin.controller.js (new file)
+[2025-01-13T14:31:31.850Z] [VERBOSE] [Build]   copy  www/scripts/TransferPlugin.languageResources.js platforms/android/app/src/main/assets/www/scripts/TransferPlugin.languageResources.js (new file)
+[2025-01-13T14:31:31.852Z] [VERBOSE] [Build]   copy  www/scripts/TransferPlugin.model.js platforms/android/app/src/main/assets/www/scripts/TransferPlugin.model.js (new file)
+[2025-01-13T14:31:31.853Z] [VERBOSE] [Build]   copy  www/scripts/TransferPlugin.osfiletransfer_bundle.js platforms/android/app/src/main/assets/www/scripts/TransferPlugin.osfiletransfer_bundle.js (new file)
+[2025-01-13T14:31:31.854Z] [VERBOSE] [Build]   copy  www/scripts/TransferPlugin.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/TransferPlugin.referencesHealth.js (new file)
+[2025-01-13T14:31:31.855Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.BottomBar.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.BottomBar.mvc.js (new file)
+[2025-01-13T14:31:31.857Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.InvalidPermissions.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.InvalidPermissions.mvc.js (new file)
+[2025-01-13T14:31:31.858Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.Layout.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.Layout.mvc.js (new file)
+[2025-01-13T14:31:31.860Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.LayoutBlank.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.LayoutBlank.mvc.js (new file)
+[2025-01-13T14:31:31.862Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.Layout_chat.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.Layout_chat.mvc.js (new file)
+[2025-01-13T14:31:31.864Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.Login.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.Login.mvc.js (new file)
+[2025-01-13T14:31:31.865Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.Menu.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.Menu.mvc.js (new file)
+[2025-01-13T14:31:31.867Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.MenuIcon.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.MenuIcon.mvc.js (new file)
+[2025-01-13T14:31:31.868Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.OfflineDataSyncEvents.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.OfflineDataSyncEvents.mvc.js (new file)
+[2025-01-13T14:31:31.870Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.Splash.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.Splash.mvc.js (new file)
+[2025-01-13T14:31:31.871Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.controller.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.controller.js (new file)
+[2025-01-13T14:31:31.872Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.maintenance.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.maintenance.mvc.js (new file)
+[2025-01-13T14:31:31.873Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Common.no_connection.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Common.no_connection.mvc.js (new file)
+[2025-01-13T14:31:31.874Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Emails.controller.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Emails.controller.js (new file)
+[2025-01-13T14:31:31.876Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Absent.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Absent.mvc.js (new file)
+[2025-01-13T14:31:31.877Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Administrator.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Administrator.mvc.js (new file)
+[2025-01-13T14:31:31.878Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.BlockOTPInput.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.BlockOTPInput.mvc.js (new file)
+[2025-01-13T14:31:31.879Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Calendar.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Calendar.mvc.js (new file)
+[2025-01-13T14:31:31.881Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Calendar_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Calendar_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.882Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Change_classeroom.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Change_classeroom.mvc.js (new file)
+[2025-01-13T14:31:31.883Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Change_classeroom_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Change_classeroom_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.885Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Classrooms.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Classrooms.mvc.js (new file)
+[2025-01-13T14:31:31.886Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.ColorPicker.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.ColorPicker.mvc.js (new file)
+[2025-01-13T14:31:31.888Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Competition.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Competition.mvc.js (new file)
+[2025-01-13T14:31:31.889Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Competition_teachers.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Competition_teachers.mvc.js (new file)
+[2025-01-13T14:31:31.890Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.CreatePost.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.CreatePost.mvc.js (new file)
+[2025-01-13T14:31:31.892Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.CreatePost_Teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.CreatePost_Teacher.mvc.js (new file)
+[2025-01-13T14:31:31.894Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Createupdate_student.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Createupdate_student.mvc.js (new file)
+[2025-01-13T14:31:31.895Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Createupdate_user.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Createupdate_user.mvc.js (new file)
+[2025-01-13T14:31:31.898Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Createupdate_user_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Createupdate_user_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.899Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.EOImail.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.EOImail.mvc.js (new file)
+[2025-01-13T14:31:31.900Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.EditPost.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.EditPost.mvc.js (new file)
+[2025-01-13T14:31:31.902Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.EditPost_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.EditPost_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.904Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Generate_report.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Generate_report.mvc.js (new file)
+[2025-01-13T14:31:31.905Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Generate_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Generate_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.907Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.HTMLViewer.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.HTMLViewer.mvc.js (new file)
+[2025-01-13T14:31:31.908Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Home.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Home.mvc.js (new file)
+[2025-01-13T14:31:31.910Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.IndividualInput.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.IndividualInput.mvc.js (new file)
+[2025-01-13T14:31:31.911Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Invoices.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Invoices.mvc.js (new file)
+[2025-01-13T14:31:31.913Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.PanZoom.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.PanZoom.mvc.js (new file)
+[2025-01-13T14:31:31.913Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Pending_reports.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Pending_reports.mvc.js (new file)
+[2025-01-13T14:31:31.916Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Pending_reports_class.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Pending_reports_class.mvc.js (new file)
+[2025-01-13T14:31:31.917Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.PostImage.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.PostImage.mvc.js (new file)
+[2025-01-13T14:31:31.918Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.PostImage_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.PostImage_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.919Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Reportslist.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Reportslist.mvc.js (new file)
+[2025-01-13T14:31:31.921Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Reportslist_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Reportslist_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.922Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Skeleton.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Skeleton.mvc.js (new file)
+[2025-01-13T14:31:31.923Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.SkeletonCSS.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.SkeletonCSS.mvc.js (new file)
+[2025-01-13T14:31:31.925Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.SkeletonPlaceholder.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.SkeletonPlaceholder.mvc.js (new file)
+[2025-01-13T14:31:31.926Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Student_Attendance.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Student_Attendance.mvc.js (new file)
+[2025-01-13T14:31:31.927Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Student_Details.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Student_Details.mvc.js (new file)
+[2025-01-13T14:31:31.929Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Student_Notes.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Student_Notes.mvc.js (new file)
+[2025-01-13T14:31:31.930Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Student_Notes_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Student_Notes_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.932Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Student_Rating.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Student_Rating.mvc.js (new file)
+[2025-01-13T14:31:31.933Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Student_Rating_teachers.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Student_Rating_teachers.mvc.js (new file)
+[2025-01-13T14:31:31.935Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Students.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Students.mvc.js (new file)
+[2025-01-13T14:31:31.937Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Teacher_Home.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Teacher_Home.mvc.js (new file)
+[2025-01-13T14:31:31.938Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Teachers.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Teachers.mvc.js (new file)
+[2025-01-13T14:31:31.940Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Unpaid_Students.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Unpaid_Students.mvc.js (new file)
+[2025-01-13T14:31:31.941Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Uploadtosharepoint.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Uploadtosharepoint.mvc.js (new file)
+[2025-01-13T14:31:31.942Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.User_Details.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.User_Details.mvc.js (new file)
+[2025-01-13T14:31:31.944Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Viewreport.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Viewreport.mvc.js (new file)
+[2025-01-13T14:31:31.945Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.Viewreport_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.Viewreport_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.947Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.YearPicker.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.YearPicker.mvc.js (new file)
+[2025-01-13T14:31:31.948Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.ZoomImage.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.ZoomImage.mvc.js (new file)
+[2025-01-13T14:31:31.949Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.appointment.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.appointment.mvc.js (new file)
+[2025-01-13T14:31:31.951Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.appointment_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.appointment_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.952Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.chat.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.chat.mvc.js (new file)
+[2025-01-13T14:31:31.954Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.chat_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.chat_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.955Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.chats.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.chats.mvc.js (new file)
+[2025-01-13T14:31:31.957Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.chats_teachers.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.chats_teachers.mvc.js (new file)
+[2025-01-13T14:31:31.958Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.class_details.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.class_details.mvc.js (new file)
+[2025-01-13T14:31:31.960Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.controller.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.controller.js (new file)
+[2025-01-13T14:31:31.962Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.createupdate_class.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.createupdate_class.mvc.js (new file)
+[2025-01-13T14:31:31.963Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.createupdateinvoice.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.createupdateinvoice.mvc.js (new file)
+[2025-01-13T14:31:31.965Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.feed.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.feed.mvc.js (new file)
+[2025-01-13T14:31:31.966Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.feed_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.feed_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.968Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.feedpost.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.feedpost.mvc.js (new file)
+[2025-01-13T14:31:31.970Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.feedpost_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.feedpost_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.971Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.homeworkdetail.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.homeworkdetail.mvc.js (new file)
+[2025-01-13T14:31:31.973Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.homeworkdetail_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.homeworkdetail_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.974Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.hwsubview.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.hwsubview.mvc.js (new file)
+[2025-01-13T14:31:31.975Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.map.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.map.mvc.js (new file)
+[2025-01-13T14:31:31.977Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.my_class.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.my_class.mvc.js (new file)
+[2025-01-13T14:31:31.979Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.notifications.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.notifications.mvc.js (new file)
+[2025-01-13T14:31:31.981Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.notifications_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.notifications_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.982Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.photohistory.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.photohistory.mvc.js (new file)
+[2025-01-13T14:31:31.983Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.postmedia.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.postmedia.mvc.js (new file)
+[2025-01-13T14:31:31.985Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.postviews.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.postviews.mvc.js (new file)
+[2025-01-13T14:31:31.986Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.postviews_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.postviews_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.987Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.ranking.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.ranking.mvc.js (new file)
+[2025-01-13T14:31:31.988Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.ranking_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.ranking_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.989Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.sharepointlist.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.sharepointlist.mvc.js (new file)
+[2025-01-13T14:31:31.991Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.student_Attendance_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.student_Attendance_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.992Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.student_details_teacher.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.student_details_teacher.mvc.js (new file)
+[2025-01-13T14:31:31.993Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.term_certificates.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.term_certificates.mvc.js (new file)
+[2025-01-13T14:31:31.995Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.term_certificates_teachers.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.term_certificates_teachers.mvc.js (new file)
+[2025-01-13T14:31:31.997Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.user_attendance.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.user_attendance.mvc.js (new file)
+[2025-01-13T14:31:31.998Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.vouchers.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.vouchers.mvc.js (new file)
+[2025-01-13T14:31:32.000Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.MainFlow.weblogin.mvc.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.MainFlow.weblogin.mvc.js (new file)
+[2025-01-13T14:31:32.001Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.OTPInputScript.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.OTPInputScript.js (new file)
+[2025-01-13T14:31:32.002Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.OneSignalManager.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.OneSignalManager.js (new file)
+[2025-01-13T14:31:32.003Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Script1.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Script1.js (new file)
+[2025-01-13T14:31:32.005Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.Script2.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.Script2.js (new file)
+[2025-01-13T14:31:32.006Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.YearPicker.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.YearPicker.js (new file)
+[2025-01-13T14:31:32.007Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.aggregates.SQL.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.aggregates.SQL.js (new file)
+[2025-01-13T14:31:32.008Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.anvaka_panzoom_js.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.anvaka_panzoom_js.js (new file)
+[2025-01-13T14:31:32.010Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.appDefinition.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.appDefinition.js (new file)
+[2025-01-13T14:31:32.011Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.clientVariables.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.clientVariables.js (new file)
+[2025-01-13T14:31:32.012Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.coloris.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.coloris.js (new file)
+[2025-01-13T14:31:32.013Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.controller.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.controller.js (new file)
+[2025-01-13T14:31:32.015Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.entities.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.entities.js (new file)
+[2025-01-13T14:31:32.016Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.error.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.error.js (new file)
+[2025-01-13T14:31:32.017Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.iFrameSize.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.iFrameSize.js (new file)
+[2025-01-13T14:31:32.018Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.index.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.index.js (new file)
+[2025-01-13T14:31:32.020Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.jquery3_7_0_min.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.jquery3_7_0_min.js (new file)
+[2025-01-13T14:31:32.021Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.jquery_min.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.jquery_min.js (new file)
+[2025-01-13T14:31:32.023Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.languageResources.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.languageResources.js (new file)
+[2025-01-13T14:31:32.024Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.model.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.model.js (new file)
+[2025-01-13T14:31:32.034Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.referencesHealth.js (new file)
+[2025-01-13T14:31:32.035Z] [VERBOSE] [Build]   copy  www/scripts/arabicschooln.video_min.js platforms/android/app/src/main/assets/www/scripts/arabicschooln.video_min.js (new file)
+[2025-01-13T14:31:32.038Z] [VERBOSE] [Build]   copy  www/scripts/nosleep.controller.js platforms/android/app/src/main/assets/www/scripts/nosleep.controller.js (new file)
+[2025-01-13T14:31:32.040Z] [VERBOSE] [Build]   copy  www/scripts/nosleep.model.js platforms/android/app/src/main/assets/www/scripts/nosleep.model.js (new file)
+[2025-01-13T14:31:32.041Z] [VERBOSE] [Build]   copy  www/scripts/nosleep.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/nosleep.referencesHealth.js (new file)
+[2025-01-13T14:31:32.042Z] [VERBOSE] [Build]   copy  www/scripts/pdfJSViewerReactive.CheckPdf.js platforms/android/app/src/main/assets/www/scripts/pdfJSViewerReactive.CheckPdf.js (new file)
+[2025-01-13T14:31:32.043Z] [VERBOSE] [Build]   copy  www/scripts/pdfJSViewerReactive.controller.js platforms/android/app/src/main/assets/www/scripts/pdfJSViewerReactive.controller.js (new file)
+[2025-01-13T14:31:32.044Z] [VERBOSE] [Build]   copy  www/scripts/pdfJSViewerReactive.languageResources.js platforms/android/app/src/main/assets/www/scripts/pdfJSViewerReactive.languageResources.js (new file)
+[2025-01-13T14:31:32.046Z] [VERBOSE] [Build]   copy  www/scripts/pdfJSViewerReactive.model.js platforms/android/app/src/main/assets/www/scripts/pdfJSViewerReactive.model.js (new file)
+[2025-01-13T14:31:32.047Z] [VERBOSE] [Build]   copy  www/scripts/pdfJSViewerReactive.pdfJS.js platforms/android/app/src/main/assets/www/scripts/pdfJSViewerReactive.pdfJS.js (new file)
+[2025-01-13T14:31:32.049Z] [VERBOSE] [Build]   copy  www/scripts/pdfJSViewerReactive.pdfJSViewer.pdfJSViewer.mvc.js platforms/android/app/src/main/assets/www/scripts/pdfJSViewerReactive.pdfJSViewer.pdfJSViewer.mvc.js (new file)
+[2025-01-13T14:31:32.051Z] [VERBOSE] [Build]   copy  www/scripts/pdfJSViewerReactive.pdfJSworker.js platforms/android/app/src/main/assets/www/scripts/pdfJSViewerReactive.pdfJSworker.js (new file)
+[2025-01-13T14:31:32.055Z] [VERBOSE] [Build]   copy  www/scripts/pdfJSViewerReactive.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/pdfJSViewerReactive.referencesHealth.js (new file)
+[2025-01-13T14:31:32.056Z] [VERBOSE] [Build]   copy  www/scripts/teachers_push.OneSignalManager.js platforms/android/app/src/main/assets/www/scripts/teachers_push.OneSignalManager.js (new file)
+[2025-01-13T14:31:32.057Z] [VERBOSE] [Build]   copy  www/scripts/teachers_push.controller.js platforms/android/app/src/main/assets/www/scripts/teachers_push.controller.js (new file)
+[2025-01-13T14:31:32.058Z] [VERBOSE] [Build]   copy  www/scripts/teachers_push.model.js platforms/android/app/src/main/assets/www/scripts/teachers_push.model.js (new file)
+[2025-01-13T14:31:32.060Z] [VERBOSE] [Build]   copy  www/scripts/teachers_push.referencesHealth.js platforms/android/app/src/main/assets/www/scripts/teachers_push.referencesHealth.js (new file)
+[2025-01-13T14:31:32.062Z] [VERBOSE] [Build] Wrote out android application name "Arabic School for Teachers" to source/platforms/android/app/src/main/res/values/strings.xml
+[2025-01-13T14:31:32.065Z] [VERBOSE] [Build] Wrote out Android application SplashScreen Color to source/platforms/android/app/src/main/res/values/colors.xml
+[2025-01-13T14:31:32.066Z] [VERBOSE] [Build] The "AndroidWindowSplashScreenBrandingImage" is undefined. Cordova's default will be used.
+[2025-01-13T14:31:32.067Z] [VERBOSE] [Build] Wrote out Android application SplashScreen Icon Color to source/platforms/android/app/src/main/res/values/colors.xml
+[2025-01-13T14:31:32.068Z] [VERBOSE] [Build] Wrote out Android application themes to source/platforms/android/app/src/main/res/values/themes.xml
+[2025-01-13T14:31:32.068Z] [VERBOSE] [Build] [Cordova Gradle Config] Setting "PACKAGE_NAMESPACE" to com.kwalha.arabicschool
+[2025-01-13T14:31:32.068Z] [VERBOSE] [Build] [Cordova Gradle Config] Saving File
+[2025-01-13T14:31:32.081Z] [VERBOSE] [Build] Updating icons at platforms/android/app/src/main/res
+[2025-01-13T14:31:32.081Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher.xml (no source)
+[2025-01-13T14:31:32.081Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher_background.png (no source)
+[2025-01-13T14:31:32.081Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher_foreground.png (no source)
+[2025-01-13T14:31:32.082Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher_monochrome.png (no source)
+[2025-01-13T14:31:32.082Z] [VERBOSE] [Build]   copy  res/android/drawable-hdpi/icon.png platforms/android/app/src/main/res/mipmap-hdpi/ic_launcher.png (updated file)
+[2025-01-13T14:31:32.082Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher.xml (no source)
+[2025-01-13T14:31:32.082Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher_background.png (no source)
+[2025-01-13T14:31:32.082Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher_foreground.png (no source)
+[2025-01-13T14:31:32.083Z] [VERBOSE] [Build]   copy  res/android/drawable-ldpi/icon.png platforms/android/app/src/main/res/mipmap-ldpi/ic_launcher.png (updated file)
+[2025-01-13T14:31:32.083Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher.xml (no source)
+[2025-01-13T14:31:32.083Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher_background.png (no source)
+[2025-01-13T14:31:32.083Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher_foreground.png (no source)
+[2025-01-13T14:31:32.083Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher_monochrome.png (no source)
+[2025-01-13T14:31:32.084Z] [VERBOSE] [Build]   copy  res/android/drawable-mdpi/icon.png platforms/android/app/src/main/res/mipmap-mdpi/ic_launcher.png (updated file)
+[2025-01-13T14:31:32.084Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher.xml (no source)
+[2025-01-13T14:31:32.084Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher_background.png (no source)
+[2025-01-13T14:31:32.084Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher_foreground.png (no source)
+[2025-01-13T14:31:32.084Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher_monochrome.png (no source)
+[2025-01-13T14:31:32.085Z] [VERBOSE] [Build]   copy  res/android/drawable-xhdpi/icon.png platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png (updated file)
+[2025-01-13T14:31:32.085Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher.xml (no source)
+[2025-01-13T14:31:32.085Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher_background.png (no source)
+[2025-01-13T14:31:32.085Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher_foreground.png (no source)
+[2025-01-13T14:31:32.085Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher_monochrome.png (no source)
+[2025-01-13T14:31:32.086Z] [VERBOSE] [Build]   copy  res/android/drawable-xxhdpi/icon.png platforms/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png (updated file)
+[2025-01-13T14:31:32.086Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher.xml (no source)
+[2025-01-13T14:31:32.086Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher_background.png (no source)
+[2025-01-13T14:31:32.086Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher_foreground.png (no source)
+[2025-01-13T14:31:32.086Z] [VERBOSE] [Build]   delete platforms/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher_monochrome.png (no source)
+[2025-01-13T14:31:32.087Z] [VERBOSE] [Build]   copy  res/android/drawable-xxxhdpi/icon.png platforms/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png (updated file)
+[2025-01-13T14:31:32.092Z] [VERBOSE] [Build] Updating splash screens at platforms/android/app/src/main/res
+[2025-01-13T14:31:32.092Z] [VERBOSE] [Build]   copy  res/android/drawable-land-hdpi/screen.png platforms/android/app/src/main/res/drawable-land-hdpi/screen.png (updated file)
+[2025-01-13T14:31:32.092Z] [VERBOSE] [Build]   copy  res/android/drawable-land-ldpi/screen.png platforms/android/app/src/main/res/drawable-land-ldpi/screen.png (updated file)
+[2025-01-13T14:31:32.093Z] [VERBOSE] [Build]   copy  res/android/drawable-land-mdpi/screen.png platforms/android/app/src/main/res/drawable-land-mdpi/screen.png (updated file)
+[2025-01-13T14:31:32.093Z] [VERBOSE] [Build]   copy  res/android/drawable-land-xhdpi/screen.png platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png (updated file)
+[2025-01-13T14:31:32.094Z] [VERBOSE] [Build]   copy  res/android/drawable-land-xxhdpi/screen.png platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png (updated file)
+[2025-01-13T14:31:32.094Z] [VERBOSE] [Build]   copy  res/android/drawable-land-xxxhdpi/screen.png platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png (updated file)
+[2025-01-13T14:31:32.095Z] [VERBOSE] [Build]   copy  res/android/drawable-port-hdpi/screen.png platforms/android/app/src/main/res/drawable-port-hdpi/screen.png (updated file)
+[2025-01-13T14:31:32.095Z] [VERBOSE] [Build]   copy  res/android/drawable-port-ldpi/screen.png platforms/android/app/src/main/res/drawable-port-ldpi/screen.png (updated file)
+[2025-01-13T14:31:32.095Z] [VERBOSE] [Build]   copy  res/android/drawable-port-mdpi/screen.png platforms/android/app/src/main/res/drawable-port-mdpi/screen.png (updated file)
+[2025-01-13T14:31:32.096Z] [VERBOSE] [Build]   copy  res/android/drawable-port-xhdpi/screen.png platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png (updated file)
+[2025-01-13T14:31:32.096Z] [VERBOSE] [Build]   copy  res/android/drawable-port-xxhdpi/screen.png platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png (updated file)
+[2025-01-13T14:31:32.097Z] [VERBOSE] [Build]   copy  res/android/drawable-port-xxxhdpi/screen.png platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png (updated file)
+[2025-01-13T14:31:32.097Z] [VERBOSE] [Build] Updating resource files at platforms/android
+[2025-01-13T14:31:32.098Z] [VERBOSE] [Build]   copy  res/android/xml/network_security_config.xml platforms/android/app/src/main/res/xml/network_security_config.xml (new file)
+[2025-01-13T14:31:32.098Z] [VERBOSE] [Build] Prepared android project successfully
+[2025-01-13T14:31:32.110Z] [VERBOSE] [Build] No scripts found for hook "before_prepare".
+[2025-01-13T14:31:32.110Z] [VERBOSE] [Build] Checking for saved platforms that haven't been added to the project
+[2025-01-13T14:31:32.118Z] [VERBOSE] [Build] Checking for saved plugins that haven't been added to the project
+[2025-01-13T14:31:32.124Z] [VERBOSE] [Build] Plugin '@outsystems/cordova-outsystems-core' found in config.xml... Migrating it to package.json
+[2025-01-13T14:31:32.124Z] [VERBOSE] [Build] Plugin 'cordova-plugin-device' found in config.xml... Migrating it to package.json
+[2025-01-13T14:31:32.124Z] [VERBOSE] [Build] Plugin 'cordova-plugin-statusbar' found in config.xml... Migrating it to package.json
+[2025-01-13T14:31:32.124Z] [VERBOSE] [Build] Plugin 'cordova-sqlite-storage' found in config.xml... Migrating it to package.json
+[2025-01-13T14:31:32.146Z] [VERBOSE] [Build] Discovered plugin "@outsystems/cordova-outsystems-core". Adding it to the project
+[2025-01-13T14:31:32.150Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:31:32.151Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "./cordova-outsystems-core"
+[2025-01-13T14:31:32.244Z] [VERBOSE] [Build] fetch: Installing source/cordova-outsystems-core to source
+[2025-01-13T14:31:37.450Z] [VERBOSE] [Build] Copying plugin "source/node_modules/@outsystems/cordova-outsystems-core" => "source/plugins/@outsystems/cordova-outsystems-core"
+[2025-01-13T14:31:37.515Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/@outsystems/cordova-outsystems-core" for platform "android
+[2025-01-13T14:31:37.517Z] [VERBOSE] [Build] Installing "@outsystems/cordova-outsystems-core" for android
+[2025-01-13T14:31:37.518Z] [VERBOSE] [Build] Dependencies detected, iterating through them...
+[2025-01-13T14:31:37.520Z] [VERBOSE] [Build] Requesting plugin "cordova-plugin-network-information".
+[2025-01-13T14:31:37.520Z] [VERBOSE] [Build] Plugin dependency "cordova-plugin-network-information" not fetched, retrieving then installing.
+[2025-01-13T14:31:38.184Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-plugin-network-information to source
+[2025-01-13T14:31:40.236Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-network-information" => "source/plugins/cordova-plugin-network-information"
+[2025-01-13T14:31:40.258Z] [VERBOSE] [Build] Installing "cordova-plugin-network-information" for android
+[2025-01-13T14:31:40.275Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-network-information on android platform only.
+[2025-01-13T14:31:40.275Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:31:40.275Z] [VERBOSE] [Build] Install start for "cordova-plugin-network-information" on android.
+[2025-01-13T14:31:40.277Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:31:40.281Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:31:40.295Z] [VERBOSE] [Build] Install complete for cordova-plugin-network-information on android.
+[2025-01-13T14:31:40.302Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-network-information on android platform only.
+[2025-01-13T14:31:40.302Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:31:40.308Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin @outsystems/cordova-outsystems-core on android platform only.
+[2025-01-13T14:31:40.308Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:31:40.308Z] [VERBOSE] [Build] Install start for "@outsystems/cordova-outsystems-core" on android.
+[2025-01-13T14:31:40.310Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:31:40.371Z] [VERBOSE] [Build] Installing Android library: libs/android/core-build.gradle
+[2025-01-13T14:31:40.382Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:31:40.392Z] [VERBOSE] [Build] Updating build files since android plugin contained <framework>
+[2025-01-13T14:31:40.394Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:31:40.394Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:31:40.394Z] [VERBOSE] [Build] Install complete for @outsystems/cordova-outsystems-core on android.
+[2025-01-13T14:31:40.397Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin @outsystems/cordova-outsystems-core on android platform only.
+[2025-01-13T14:31:40.397Z] [VERBOSE] [Build] Executing script found in plugin @outsystems/cordova-outsystems-core for hook "after_plugin_install": plugins/@outsystems/cordova-outsystems-core/hooks/addPermissions.js
+[2025-01-13T14:31:40.442Z] [VERBOSE] [Build] Adding @outsystems/cordova-outsystems-core to package.json
+[2025-01-13T14:31:40.454Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:31:40.454Z] [VERBOSE] [Build] Discovered plugin "cordova-plugin-device". Adding it to the project
+[2025-01-13T14:31:40.464Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:31:40.464Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "cordova-plugin-device@2.1.0"
+[2025-01-13T14:31:40.470Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-device" => "source/plugins/cordova-plugin-device"
+[2025-01-13T14:31:40.495Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-device" for platform "android
+[2025-01-13T14:31:40.496Z] [VERBOSE] [Build] Installing "cordova-plugin-device" for android
+[2025-01-13T14:31:40.505Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-device on android platform only.
+[2025-01-13T14:31:40.505Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:31:40.505Z] [VERBOSE] [Build] Install start for "cordova-plugin-device" on android.
+[2025-01-13T14:31:40.505Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:31:40.507Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:31:40.517Z] [VERBOSE] [Build] Install complete for cordova-plugin-device on android.
+[2025-01-13T14:31:40.523Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-device on android platform only.
+[2025-01-13T14:31:40.523Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:31:40.523Z] [VERBOSE] [Build] Adding cordova-plugin-device to package.json
+[2025-01-13T14:31:40.540Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:31:40.540Z] [VERBOSE] [Build] Discovered plugin "cordova-plugin-statusbar". Adding it to the project
+[2025-01-13T14:31:40.548Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:31:40.548Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-plugin-statusbar.git#4.0.0+0.0.1"
+[2025-01-13T14:31:41.186Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-plugin-statusbar.git#4.0.0+0.0.1 to source
+[2025-01-13T14:31:43.055Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-statusbar" => "source/plugins/cordova-plugin-statusbar"
+[2025-01-13T14:31:43.071Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-statusbar" for platform "android
+[2025-01-13T14:31:43.071Z] [VERBOSE] [Build] Installing "cordova-plugin-statusbar" for android
+[2025-01-13T14:31:43.268Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-statusbar on android platform only.
+[2025-01-13T14:31:43.268Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:31:43.268Z] [VERBOSE] [Build] Install start for "cordova-plugin-statusbar" on android.
+[2025-01-13T14:31:43.268Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:31:43.271Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:31:43.274Z] [VERBOSE] [Build] Install complete for cordova-plugin-statusbar on android.
+[2025-01-13T14:31:43.275Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-statusbar on android platform only.
+[2025-01-13T14:31:43.276Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:31:43.276Z] [VERBOSE] [Build] Adding cordova-plugin-statusbar to package.json
+[2025-01-13T14:31:43.284Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:31:43.284Z] [VERBOSE] [Build] Discovered plugin "cordova-sqlite-storage". Adding it to the project
+[2025-01-13T14:31:43.294Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:31:43.294Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/Cordova-sqlite-storage.git#6.1.0+1.1.0"
+[2025-01-13T14:31:44.085Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/Cordova-sqlite-storage.git#6.1.0+1.1.0 to source
+[2025-01-13T14:31:46.053Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-sqlite-storage" => "source/plugins/cordova-sqlite-storage"
+[2025-01-13T14:31:46.128Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-sqlite-storage" for platform "android
+[2025-01-13T14:31:46.128Z] [VERBOSE] [Build] Installing "cordova-sqlite-storage" for android
+[2025-01-13T14:31:46.135Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-sqlite-storage on android platform only.
+[2025-01-13T14:31:46.135Z] [VERBOSE] [Build] Executing script found in plugin cordova-sqlite-storage for hook "before_plugin_install": plugins/cordova-sqlite-storage/scripts/beforePluginInstall.js
+[2025-01-13T14:31:46.137Z] [VERBOSE] [Build] installing external dependencies via npm
+[2025-01-13T14:31:46.137Z] [VERBOSE] [Build] for package name: cordova-sqlite-storage
+[2025-01-13T14:31:49.610Z] [VERBOSE] [Build] npm install of external dependencies ok
+[2025-01-13T14:31:49.610Z] [VERBOSE] [Build] Install start for "cordova-sqlite-storage" on android.
+[2025-01-13T14:31:49.611Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:31:49.619Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:31:49.623Z] [VERBOSE] [Build] Install complete for cordova-sqlite-storage on android.
+[2025-01-13T14:31:49.624Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-sqlite-storage on android platform only.
+[2025-01-13T14:31:49.624Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:31:49.624Z] [VERBOSE] [Build] Adding cordova-sqlite-storage to package.json
+[2025-01-13T14:31:49.632Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:31:49.636Z] [VERBOSE] [Build] Generating platform-specific config.xml from defaults for android at source/platforms/android/app/src/main/res/xml/config.xml
+[2025-01-13T14:31:49.641Z] [VERBOSE] [Build] Merging project's config.xml into platform-specific android config.xml
+[2025-01-13T14:31:49.645Z] [VERBOSE] [Build] [Gradle Properties] Preparing Configuration
+[2025-01-13T14:31:49.645Z] [VERBOSE] [Build] [Gradle Properties] Appending default configuration properties
+[2025-01-13T14:31:49.646Z] [VERBOSE] [Build] [Gradle Properties] Appending custom configuration properties
+[2025-01-13T14:31:49.646Z] [VERBOSE] [Build] [Gradle Properties] Updating and Saving File
+[2025-01-13T14:31:49.647Z] [VERBOSE] [Build] Merging and updating files from [www, platforms/android/platform_www] to platforms/android/app/src/main/assets/www
+[2025-01-13T14:31:49.671Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/cordova_plugins.js platforms/android/app/src/main/assets/www/cordova_plugins.js (updated file)
+[2025-01-13T14:31:49.672Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/OSApplicationInfo.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/OSApplicationInfo.js (updated file)
+[2025-01-13T14:31:49.674Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/OSAuth.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/OSAuth.js (updated file)
+[2025-01-13T14:31:49.675Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/OSCache.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/OSCache.js (updated file)
+[2025-01-13T14:31:49.677Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/OSDeepLinks.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/OSDeepLinks.js (updated file)
+[2025-01-13T14:31:49.678Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/OSLogger.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/OSLogger.js (updated file)
+[2025-01-13T14:31:49.680Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/OSPrebundle.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/OSPrebundle.js (updated file)
+[2025-01-13T14:31:49.681Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/OTLogger.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/OTLogger.js (updated file)
+[2025-01-13T14:31:49.683Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/logger_v1.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/logger_v1.js (updated file)
+[2025-01-13T14:31:49.684Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/logger_v2.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/logger_v2.js (updated file)
+[2025-01-13T14:31:49.686Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/@outsystems/cordova-outsystems-core/www/utils.js platforms/android/app/src/main/assets/www/plugins/@outsystems/cordova-outsystems-core/www/utils.js (updated file)
+[2025-01-13T14:31:49.687Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-device/www/device.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-device/www/device.js (updated file)
+[2025-01-13T14:31:49.688Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-network-information/www/Connection.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-network-information/www/Connection.js (updated file)
+[2025-01-13T14:31:49.690Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-network-information/www/network.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-network-information/www/network.js (updated file)
+[2025-01-13T14:31:49.692Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-statusbar/www/statusbar.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-statusbar/www/statusbar.js (updated file)
+[2025-01-13T14:31:49.693Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js platforms/android/app/src/main/assets/www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js (updated file)
+[2025-01-13T14:31:49.696Z] [VERBOSE] [Build] Wrote out android application name "Arabic School for Teachers" to source/platforms/android/app/src/main/res/values/strings.xml
+[2025-01-13T14:31:49.697Z] [VERBOSE] [Build] Wrote out Android application SplashScreen Color to source/platforms/android/app/src/main/res/values/colors.xml
+[2025-01-13T14:31:49.698Z] [VERBOSE] [Build] The "AndroidWindowSplashScreenBrandingImage" is undefined. Cordova's default will be used.
+[2025-01-13T14:31:49.698Z] [VERBOSE] [Build] Wrote out Android application SplashScreen Icon Color to source/platforms/android/app/src/main/res/values/colors.xml
+[2025-01-13T14:31:49.699Z] [VERBOSE] [Build] Wrote out Android application themes to source/platforms/android/app/src/main/res/values/themes.xml
+[2025-01-13T14:31:49.700Z] [VERBOSE] [Build] [Cordova Gradle Config] Setting "PACKAGE_NAMESPACE" to com.kwalha.arabicschool
+[2025-01-13T14:31:49.700Z] [VERBOSE] [Build] [Cordova Gradle Config] Saving File
+[2025-01-13T14:31:49.705Z] [VERBOSE] [Build] Updating icons at platforms/android/app/src/main/res
+[2025-01-13T14:31:49.709Z] [VERBOSE] [Build] Updating splash screens at platforms/android/app/src/main/res
+[2025-01-13T14:31:49.710Z] [VERBOSE] [Build] Updating resource files at platforms/android
+[2025-01-13T14:31:49.710Z] [VERBOSE] [Build] Prepared android project successfully
+[2025-01-13T14:31:49.719Z] [VERBOSE] [Build] No scripts found for hook "after_prepare".
+[2025-01-13T14:31:49.719Z] [VERBOSE] [Build] Saving android@OutSystems/cordova-android#13.0.0+1.0.0 into platforms.json
+[2025-01-13T14:31:49.720Z] [VERBOSE] [Build] adding android to cordova.platforms array in package.json
+[2025-01-13T14:31:49.727Z] [VERBOSE] [Build] Executing script found in config.xml for hook "after_platform_add": hooks/applyUnsafeEvalUsagesPatch.js
+[2025-01-13T14:31:49.832Z] [INFO] [Build] Applying plugins in the config.xml file...
+[2025-01-13T14:31:49.836Z] [INFO] [Build] Adding native plugin 1 of 14
+[2025-01-13T14:31:50.720Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:31:50.722Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin#4.2.0"
+[2025-01-13T14:31:51.464Z] [VERBOSE] [Build] fetch: Installing https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin#4.2.0 to source
+[2025-01-13T14:31:53.549Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-insomnia" => "source/plugins/cordova-plugin-insomnia"
+[2025-01-13T14:31:53.567Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-insomnia" for platform "android
+[2025-01-13T14:31:53.569Z] [VERBOSE] [Build] Installing "cordova-plugin-insomnia" for android
+[2025-01-13T14:31:53.706Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-insomnia on android platform only.
+[2025-01-13T14:31:53.706Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:31:53.707Z] [VERBOSE] [Build] Install start for "cordova-plugin-insomnia" on android.
+[2025-01-13T14:31:53.707Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:31:53.712Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:31:53.715Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:31:53.733Z] [VERBOSE] [Build] Install complete for cordova-plugin-insomnia on android.
+[2025-01-13T14:31:53.737Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-insomnia on android platform only.
+[2025-01-13T14:31:53.738Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:31:53.738Z] [VERBOSE] [Build] Adding cordova-plugin-insomnia to package.json
+[2025-01-13T14:31:53.781Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:31:53.933Z] [INFO] [Build] Adding native plugin 2 of 14
+[2025-01-13T14:31:54.760Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:31:54.762Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-plugin-geolocation#4.0.1-OS14"
+[2025-01-13T14:31:55.528Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-plugin-geolocation#4.0.1-OS14 to source
+[2025-01-13T14:31:57.736Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-geolocation" => "source/plugins/cordova-plugin-geolocation"
+[2025-01-13T14:31:57.795Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-geolocation" for platform "android
+[2025-01-13T14:31:57.798Z] [VERBOSE] [Build] Installing "cordova-plugin-geolocation" for android
+[2025-01-13T14:31:58.134Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-geolocation on android platform only.
+[2025-01-13T14:31:58.134Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:31:58.134Z] [VERBOSE] [Build] Install start for "cordova-plugin-geolocation" on android.
+[2025-01-13T14:31:58.135Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:31:58.140Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:31:58.145Z] [VERBOSE] [Build] Installing Android library: com.google.android.gms:play-services-location:21.0.1
+[2025-01-13T14:31:58.151Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:31:58.172Z] [VERBOSE] [Build] Updating build files since android plugin contained <framework>
+[2025-01-13T14:31:58.173Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:31:58.173Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:31:58.174Z] [VERBOSE] [Build] Install complete for cordova-plugin-geolocation on android.
+[2025-01-13T14:31:58.179Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-geolocation on android platform only.
+[2025-01-13T14:31:58.180Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:31:58.180Z] [VERBOSE] [Build] Adding cordova-plugin-geolocation to package.json
+[2025-01-13T14:31:58.212Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:31:58.375Z] [INFO] [Build] Adding native plugin 3 of 14
+[2025-01-13T14:31:59.225Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:31:59.227Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-plugin-file.git#6.0.2-OS7"
+[2025-01-13T14:32:00.058Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-plugin-file.git#6.0.2-OS7 to source
+[2025-01-13T14:32:02.649Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-file" => "source/plugins/cordova-plugin-file"
+[2025-01-13T14:32:02.764Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-file" for platform "android
+[2025-01-13T14:32:02.766Z] [VERBOSE] [Build] Installing "cordova-plugin-file" for android
+[2025-01-13T14:32:03.093Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-file on android platform only.
+[2025-01-13T14:32:03.094Z] [VERBOSE] [Build] Executing script found in plugin cordova-plugin-file for hook "before_plugin_install": plugins/cordova-plugin-file/src/android/hooks/installDependencies.js
+[2025-01-13T14:32:03.098Z] [VERBOSE] [Build] 12.0.1
+[2025-01-13T14:32:06.175Z] [VERBOSE] [Build] Install start for "cordova-plugin-file" on android.
+[2025-01-13T14:32:06.176Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:32:06.181Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:32:06.209Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:32:06.231Z] [VERBOSE] [Build] Install complete for cordova-plugin-file on android.
+[2025-01-13T14:32:06.232Z] [VERBOSE] [Build] The Android Persistent storage location now defaults to "Internal". Please check this plugin's README to see if your application needs any changes in its config.xml.
+[2025-01-13T14:32:06.232Z] [VERBOSE] [Build] If this is a new application no changes are required.
+[2025-01-13T14:32:06.232Z] [VERBOSE] [Build] If this is an update to an existing application that did not specify an "AndroidPersistentFileLocation" you may need to add:
+[2025-01-13T14:32:06.232Z] [VERBOSE] [Build]       "<preference name="AndroidPersistentFileLocation" value="Compatibility" />"
+[2025-01-13T14:32:06.232Z] [VERBOSE] [Build] to config.xml in order for the application to find previously stored files.
+[2025-01-13T14:32:06.232Z] [VERBOSE] [Build]         
+[2025-01-13T14:32:06.237Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-file on android platform only.
+[2025-01-13T14:32:06.237Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:32:06.238Z] [VERBOSE] [Build] Adding cordova-plugin-file to package.json
+[2025-01-13T14:32:06.272Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:32:06.478Z] [INFO] [Build] Adding native plugin 4 of 14
+[2025-01-13T14:32:07.334Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:32:07.337Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-plugin-fingerprint#4.0.0"
+[2025-01-13T14:32:08.131Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-plugin-fingerprint#4.0.0 to source
+[2025-01-13T14:32:10.007Z] [VERBOSE] [Build] Copying plugin "source/node_modules/outsystems-plugin-fingerprint" => "source/plugins/outsystems-plugin-fingerprint"
+[2025-01-13T14:32:10.019Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/outsystems-plugin-fingerprint" for platform "android
+[2025-01-13T14:32:10.021Z] [VERBOSE] [Build] Installing "outsystems-plugin-fingerprint" for android
+[2025-01-13T14:32:10.143Z] [VERBOSE] [Build] Dependencies detected, iterating through them...
+[2025-01-13T14:32:10.145Z] [VERBOSE] [Build] Requesting plugin "cordova-plugin-fingerprint-aio".
+[2025-01-13T14:32:10.145Z] [VERBOSE] [Build] Plugin dependency "cordova-plugin-fingerprint-aio" not fetched, retrieving then installing.
+[2025-01-13T14:32:10.846Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-plugin-fingerprint-aio.git#4.0.1-OS6 to source
+[2025-01-13T14:32:12.980Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-fingerprint-aio" => "source/plugins/cordova-plugin-fingerprint-aio"
+[2025-01-13T14:32:13.012Z] [VERBOSE] [Build] Installing "cordova-plugin-fingerprint-aio" for android
+[2025-01-13T14:32:13.218Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-fingerprint-aio on android platform only.
+[2025-01-13T14:32:13.218Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:32:13.218Z] [VERBOSE] [Build] Install start for "cordova-plugin-fingerprint-aio" on android.
+[2025-01-13T14:32:13.219Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:32:13.224Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:32:13.234Z] [VERBOSE] [Build] Installing Android library: src/android/build.gradle
+[2025-01-13T14:32:13.239Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:32:13.261Z] [VERBOSE] [Build] Updating build files since android plugin contained <framework>
+[2025-01-13T14:32:13.263Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:32:13.263Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:32:13.263Z] [VERBOSE] [Build] Install complete for cordova-plugin-fingerprint-aio on android.
+[2025-01-13T14:32:13.269Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-fingerprint-aio on android platform only.
+[2025-01-13T14:32:13.269Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:32:13.283Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin outsystems-plugin-fingerprint on android platform only.
+[2025-01-13T14:32:13.283Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:32:13.283Z] [VERBOSE] [Build] Install start for "outsystems-plugin-fingerprint" on android.
+[2025-01-13T14:32:13.284Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:32:13.285Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:32:13.288Z] [VERBOSE] [Build] Install complete for outsystems-plugin-fingerprint on android.
+[2025-01-13T14:32:13.297Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin outsystems-plugin-fingerprint on android platform only.
+[2025-01-13T14:32:13.298Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:32:13.298Z] [VERBOSE] [Build] Adding outsystems-plugin-fingerprint to package.json
+[2025-01-13T14:32:13.337Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:32:13.521Z] [INFO] [Build] Adding native plugin 5 of 14
+[2025-01-13T14:32:14.372Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:32:14.374Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "resources/resources0/cordova-plugin-appversion"
+[2025-01-13T14:32:14.471Z] [VERBOSE] [Build] fetch: Installing resources/resources0/cordova-plugin-appversion to source
+[2025-01-13T14:32:15.382Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-appversion" => "source/plugins/cordova-plugin-appversion"
+[2025-01-13T14:32:15.390Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-appversion" for platform "android
+[2025-01-13T14:32:15.392Z] [VERBOSE] [Build] Installing "cordova-plugin-appversion" for android
+[2025-01-13T14:32:15.522Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-appversion on android platform only.
+[2025-01-13T14:32:15.522Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:32:15.523Z] [VERBOSE] [Build] Install start for "cordova-plugin-appversion" on android.
+[2025-01-13T14:32:15.524Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:32:15.531Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:32:15.536Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:32:15.567Z] [VERBOSE] [Build] Install complete for cordova-plugin-appversion on android.
+[2025-01-13T14:32:15.575Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-appversion on android platform only.
+[2025-01-13T14:32:15.576Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:32:15.576Z] [VERBOSE] [Build] Adding cordova-plugin-appversion to package.json
+[2025-01-13T14:32:15.590Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:32:15.780Z] [INFO] [Build] Adding native plugin 6 of 14
+[2025-01-13T14:32:16.635Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:32:16.637Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "resources/resources1/cordova-call-main"
+[2025-01-13T14:32:16.735Z] [VERBOSE] [Build] fetch: Installing resources/resources1/cordova-call-main to source
+[2025-01-13T14:32:17.610Z] [VERBOSE] [Build] Copying plugin "source/node_modules/call-number" => "source/plugins/call-number"
+[2025-01-13T14:32:17.618Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/call-number" for platform "android
+[2025-01-13T14:32:17.620Z] [VERBOSE] [Build] Installing "call-number" for android
+[2025-01-13T14:32:17.750Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin call-number on android platform only.
+[2025-01-13T14:32:17.751Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:32:17.752Z] [VERBOSE] [Build] Install start for "call-number" on android.
+[2025-01-13T14:32:17.752Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:32:17.756Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:32:17.760Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:32:17.785Z] [VERBOSE] [Build] Install complete for call-number on android.
+[2025-01-13T14:32:17.787Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin call-number on android platform only.
+[2025-01-13T14:32:17.787Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:32:17.788Z] [VERBOSE] [Build] Adding call-number to package.json
+[2025-01-13T14:32:17.802Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:32:17.981Z] [INFO] [Build] Adding native plugin 7 of 14
+[2025-01-13T14:32:18.825Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:32:18.827Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-outsystems-inappbrowser#1.2.1"
+[2025-01-13T14:32:19.698Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-outsystems-inappbrowser#1.2.1 to source
+[2025-01-13T14:32:33.574Z] [VERBOSE] [Build] Copying plugin "source/node_modules/com.outsystems.plugins.inappbrowser" => "source/plugins/com.outsystems.plugins.inappbrowser"
+[2025-01-13T14:32:33.631Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/com.outsystems.plugins.inappbrowser" for platform "android
+[2025-01-13T14:32:33.633Z] [VERBOSE] [Build] Installing "com.outsystems.plugins.inappbrowser" for android
+[2025-01-13T14:32:33.778Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin com.outsystems.plugins.inappbrowser on android platform only.
+[2025-01-13T14:32:33.779Z] [VERBOSE] [Build] Executing script found in plugin com.outsystems.plugins.inappbrowser for hook "before_plugin_install": plugins/com.outsystems.plugins.inappbrowser/hooks/outsystems/handle_cleartextTrafficPermitted.js
+[2025-01-13T14:32:33.792Z] [VERBOSE] [Build] Install start for "com.outsystems.plugins.inappbrowser" on android.
+[2025-01-13T14:32:33.793Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:32:33.798Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:32:33.803Z] [VERBOSE] [Build] Installing Android library: src/android/build.gradle
+[2025-01-13T14:32:33.808Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:32:33.830Z] [VERBOSE] [Build] Updating build files since android plugin contained <framework>
+[2025-01-13T14:32:33.831Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:32:33.832Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:32:33.832Z] [VERBOSE] [Build] Install complete for com.outsystems.plugins.inappbrowser on android.
+[2025-01-13T14:32:33.836Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin com.outsystems.plugins.inappbrowser on android platform only.
+[2025-01-13T14:32:33.836Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:32:33.837Z] [VERBOSE] [Build] Adding com.outsystems.plugins.inappbrowser to package.json
+[2025-01-13T14:32:33.897Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:32:34.094Z] [INFO] [Build] Adding native plugin 8 of 14
+[2025-01-13T14:32:34.951Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:32:34.953Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-outsystems-fileviewer#1.0.7"
+[2025-01-13T14:32:37.217Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-outsystems-fileviewer#1.0.7 to source
+[2025-01-13T14:32:56.737Z] [VERBOSE] [Build] Copying plugin "source/node_modules/com.outsystems.plugins.fileviewer" => "source/plugins/com.outsystems.plugins.fileviewer"
+[2025-01-13T14:32:57.467Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/com.outsystems.plugins.fileviewer" for platform "android
+[2025-01-13T14:32:57.469Z] [VERBOSE] [Build] Installing "com.outsystems.plugins.fileviewer" for android
+[2025-01-13T14:32:57.610Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin com.outsystems.plugins.fileviewer on android platform only.
+[2025-01-13T14:32:57.610Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:32:57.610Z] [VERBOSE] [Build] Install start for "com.outsystems.plugins.fileviewer" on android.
+[2025-01-13T14:32:57.611Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:32:57.616Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:32:57.623Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:32:57.646Z] [VERBOSE] [Build] Install complete for com.outsystems.plugins.fileviewer on android.
+[2025-01-13T14:32:57.649Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin com.outsystems.plugins.fileviewer on android platform only.
+[2025-01-13T14:32:57.649Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:32:57.650Z] [VERBOSE] [Build] Adding com.outsystems.plugins.fileviewer to package.json
+[2025-01-13T14:32:57.698Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:32:57.933Z] [INFO] [Build] Adding native plugin 9 of 14
+[2025-01-13T14:32:58.799Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:32:58.802Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-plugin-camera.git#4.2.0-OS53"
+[2025-01-13T14:32:59.725Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-plugin-camera.git#4.2.0-OS53 to source
+[2025-01-13T14:33:02.443Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-camera" => "source/plugins/cordova-plugin-camera"
+[2025-01-13T14:33:02.558Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-camera" for platform "android
+[2025-01-13T14:33:02.560Z] [VERBOSE] [Build] Installing "cordova-plugin-camera" for android
+[2025-01-13T14:33:02.892Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-camera on android platform only.
+[2025-01-13T14:33:02.892Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:33:02.893Z] [VERBOSE] [Build] Install start for "cordova-plugin-camera" on android.
+[2025-01-13T14:33:02.893Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:33:02.898Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:33:02.902Z] [VERBOSE] [Build] Installing Android library: libs/android/build.gradle
+[2025-01-13T14:33:02.905Z] [VERBOSE] [Build] Installing Android library: androidx.appcompat:appcompat:1.3.0
+[2025-01-13T14:33:02.905Z] [VERBOSE] [Build] Installing Android library: androidx.constraintlayout:constraintlayout:2.0.4
+[2025-01-13T14:33:02.905Z] [VERBOSE] [Build] Installing Android library: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.3
+[2025-01-13T14:33:02.905Z] [VERBOSE] [Build] Installing Android library: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3
+[2025-01-13T14:33:02.910Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:33:02.933Z] [VERBOSE] [Build] Updating build files since android plugin contained <framework>
+[2025-01-13T14:33:02.935Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:33:02.935Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:33:02.935Z] [VERBOSE] [Build] Install complete for cordova-plugin-camera on android.
+[2025-01-13T14:33:02.937Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-camera on android platform only.
+[2025-01-13T14:33:02.938Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:33:02.938Z] [VERBOSE] [Build] Adding cordova-plugin-camera to package.json
+[2025-01-13T14:33:02.953Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:33:03.179Z] [INFO] [Build] Adding native plugin 10 of 14
+[2025-01-13T14:33:04.058Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:33:04.060Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-outsystems-barcode#1.1.7"
+[2025-01-13T14:33:04.830Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-outsystems-barcode#1.1.7 to source
+[2025-01-13T14:33:06.811Z] [VERBOSE] [Build] Copying plugin "source/node_modules/com.outsystems.plugins.barcode" => "source/plugins/com.outsystems.plugins.barcode"
+[2025-01-13T14:33:06.836Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/com.outsystems.plugins.barcode" for platform "android
+[2025-01-13T14:33:06.838Z] [VERBOSE] [Build] Installing "com.outsystems.plugins.barcode" for android
+[2025-01-13T14:33:06.965Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin com.outsystems.plugins.barcode on android platform only.
+[2025-01-13T14:33:06.965Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:33:06.965Z] [VERBOSE] [Build] Install start for "com.outsystems.plugins.barcode" on android.
+[2025-01-13T14:33:06.966Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:33:06.971Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:33:06.973Z] [VERBOSE] [Build] Installing Android library: src/android/com/outsystems/plugins/barcode/build.gradle
+[2025-01-13T14:33:06.981Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:33:07.015Z] [VERBOSE] [Build] Updating build files since android plugin contained <framework>
+[2025-01-13T14:33:07.016Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:33:07.016Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:33:07.017Z] [VERBOSE] [Build] Install complete for com.outsystems.plugins.barcode on android.
+[2025-01-13T14:33:07.019Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin com.outsystems.plugins.barcode on android platform only.
+[2025-01-13T14:33:07.019Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:33:07.019Z] [VERBOSE] [Build] Adding com.outsystems.plugins.barcode to package.json
+[2025-01-13T14:33:07.040Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:33:07.261Z] [INFO] [Build] Adding native plugin 11 of 14
+[2025-01-13T14:33:08.139Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:33:08.142Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/ksawalha/cordova-plugin-msal.git#v4.1.1"
+[2025-01-13T14:33:08.933Z] [VERBOSE] [Build] fetch: Installing https://github.com/ksawalha/cordova-plugin-msal.git#v4.1.1 to source
+[2025-01-13T14:33:11.052Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-msal" => "source/plugins/cordova-plugin-msal"
+[2025-01-13T14:33:11.077Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-msal" for platform "android
+[2025-01-13T14:33:11.080Z] [VERBOSE] [Build] Installing "cordova-plugin-msal" for android
+[2025-01-13T14:33:11.418Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-msal on android platform only.
+[2025-01-13T14:33:11.418Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:33:11.418Z] [VERBOSE] [Build] Install start for "cordova-plugin-msal" on android.
+[2025-01-13T14:33:11.419Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:33:11.424Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:33:11.426Z] [VERBOSE] [Build] Installing Android library: src/android/build-extras.gradle
+[2025-01-13T14:33:11.429Z] [VERBOSE] [Build] Installing Android library: com.microsoft.identity.client:msal:5.1.0
+[2025-01-13T14:33:11.431Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:33:11.455Z] [VERBOSE] [Build] Updating build files since android plugin contained <framework>
+[2025-01-13T14:33:11.456Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:33:11.457Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:33:11.457Z] [VERBOSE] [Build] Install complete for cordova-plugin-msal on android.
+[2025-01-13T14:33:11.459Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-msal on android platform only.
+[2025-01-13T14:33:11.459Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:33:11.460Z] [VERBOSE] [Build] Adding cordova-plugin-msal to package.json
+[2025-01-13T14:33:11.476Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:33:11.701Z] [INFO] [Build] Adding native plugin 12 of 14
+[2025-01-13T14:33:12.553Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:33:12.555Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/OneSignal-Cordova-SDK.git#2.11.1-OS13"
+[2025-01-13T14:33:13.396Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/OneSignal-Cordova-SDK.git#2.11.1-OS13 to source
+[2025-01-13T14:33:29.275Z] [VERBOSE] [Build] Copying plugin "source/node_modules/onesignal-cordova-plugin" => "source/plugins/onesignal-cordova-plugin"
+[2025-01-13T14:33:29.343Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/onesignal-cordova-plugin" for platform "android
+[2025-01-13T14:33:29.345Z] [VERBOSE] [Build] Installing "onesignal-cordova-plugin" for android
+[2025-01-13T14:33:29.690Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin onesignal-cordova-plugin on android platform only.
+[2025-01-13T14:33:29.690Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:33:29.690Z] [VERBOSE] [Build] Install start for "onesignal-cordova-plugin" on android.
+[2025-01-13T14:33:29.691Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:33:29.696Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:33:29.703Z] [VERBOSE] [Build] Installing Android library: build-extras-onesignal.gradle
+[2025-01-13T14:33:29.708Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:33:29.735Z] [VERBOSE] [Build] Updating build files since android plugin contained <framework>
+[2025-01-13T14:33:29.736Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:33:29.736Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:33:29.737Z] [VERBOSE] [Build] Install complete for onesignal-cordova-plugin on android.
+[2025-01-13T14:33:29.740Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin onesignal-cordova-plugin on android platform only.
+[2025-01-13T14:33:29.740Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:33:29.741Z] [VERBOSE] [Build] Adding onesignal-cordova-plugin to package.json
+[2025-01-13T14:33:29.801Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:33:30.045Z] [INFO] [Build] Adding native plugin 13 of 14
+[2025-01-13T14:33:30.946Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:33:30.949Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/OutSystems/cordova-plugin-file-transfer.git#2.1.0-OS2"
+[2025-01-13T14:33:31.676Z] [VERBOSE] [Build] fetch: Installing https://github.com/OutSystems/cordova-plugin-file-transfer.git#2.1.0-OS2 to source
+[2025-01-13T14:33:33.694Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-file-transfer" => "source/plugins/cordova-plugin-file-transfer"
+[2025-01-13T14:33:33.721Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-file-transfer" for platform "android
+[2025-01-13T14:33:33.723Z] [VERBOSE] [Build] Installing "cordova-plugin-file-transfer" for android
+[2025-01-13T14:33:33.841Z] [VERBOSE] [Build] Dependencies detected, iterating through them...
+[2025-01-13T14:33:33.843Z] [VERBOSE] [Build] Requesting plugin "cordova-plugin-file".
+[2025-01-13T14:33:33.845Z] [VERBOSE] [Build] Plugin dependency "cordova-plugin-file@6.0.2-OS7" already fetched, using that version.
+[2025-01-13T14:33:33.847Z] [VERBOSE] [Build] Dependent plugin "cordova-plugin-file" already installed on android.
+[2025-01-13T14:33:33.854Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-file-transfer on android platform only.
+[2025-01-13T14:33:33.854Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:33:33.854Z] [VERBOSE] [Build] Install start for "cordova-plugin-file-transfer" on android.
+[2025-01-13T14:33:33.854Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:33:33.859Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:33:33.865Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:33:33.884Z] [VERBOSE] [Build] Install complete for cordova-plugin-file-transfer on android.
+[2025-01-13T14:33:33.885Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-file-transfer on android platform only.
+[2025-01-13T14:33:33.885Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:33:33.886Z] [VERBOSE] [Build] Adding cordova-plugin-file-transfer to package.json
+[2025-01-13T14:33:33.904Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:33:34.131Z] [INFO] [Build] Adding native plugin 14 of 14
+[2025-01-13T14:33:35.013Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_add".
+[2025-01-13T14:33:35.016Z] [VERBOSE] [Build] Calling plugman.fetch on plugin "https://github.com/ksawalha/cordova-plugin-edit-plist-file.git"
+[2025-01-13T14:33:35.773Z] [VERBOSE] [Build] fetch: Installing https://github.com/ksawalha/cordova-plugin-edit-plist-file.git to source
+[2025-01-13T14:33:37.694Z] [VERBOSE] [Build] Copying plugin "source/node_modules/cordova-plugin-edit-plist-file" => "source/plugins/cordova-plugin-edit-plist-file"
+[2025-01-13T14:33:37.702Z] [VERBOSE] [Build] Calling plugman.install on plugin "source/plugins/cordova-plugin-edit-plist-file" for platform "android
+[2025-01-13T14:33:37.704Z] [VERBOSE] [Build] Installing "cordova-plugin-edit-plist-file" for android
+[2025-01-13T14:33:37.831Z] [VERBOSE] [Build] Finding scripts for "before_plugin_install" hook from plugin cordova-plugin-edit-plist-file on android platform only.
+[2025-01-13T14:33:37.831Z] [VERBOSE] [Build] No scripts found for hook "before_plugin_install".
+[2025-01-13T14:33:37.832Z] [VERBOSE] [Build] Install start for "cordova-plugin-edit-plist-file" on android.
+[2025-01-13T14:33:37.832Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:33:37.836Z] [VERBOSE] [Build] Beginning processing of action stack for android project...
+[2025-01-13T14:33:37.836Z] [VERBOSE] [Build] Action stack processing complete.
+[2025-01-13T14:33:37.840Z] [VERBOSE] [Build] Install complete for cordova-plugin-edit-plist-file on android.
+[2025-01-13T14:33:37.844Z] [VERBOSE] [Build] Finding scripts for "after_plugin_install" hook from plugin cordova-plugin-edit-plist-file on android platform only.
+[2025-01-13T14:33:37.845Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_install".
+[2025-01-13T14:33:37.845Z] [VERBOSE] [Build] Adding cordova-plugin-edit-plist-file to package.json
+[2025-01-13T14:33:37.863Z] [VERBOSE] [Build] No scripts found for hook "after_plugin_add".
+[2025-01-13T14:33:38.093Z] [INFO] [Build] Getting signing keys...
+[2025-01-13T14:33:38.095Z] [INFO] [Build] Building application package...
+[2025-01-13T14:33:38.956Z] [VERBOSE] [Build] No scripts found for hook "before_build".
+[2025-01-13T14:33:39.022Z] [VERBOSE] [Build] No scripts found for hook "before_prepare".
+[2025-01-13T14:33:39.022Z] [VERBOSE] [Build] Checking for saved platforms that haven't been added to the project
+[2025-01-13T14:33:39.149Z] [VERBOSE] [Build] Loaded API for android project source/platforms/android/cordova/Api.js
+[2025-01-13T14:33:39.151Z] [VERBOSE] [Build] Checking for saved plugins that haven't been added to the project
+[2025-01-13T14:33:39.169Z] [VERBOSE] [Build] Generating platform-specific config.xml from defaults for android at source/platforms/android/app/src/main/res/xml/config.xml
+[2025-01-13T14:33:39.199Z] [VERBOSE] [Build] Merging project's config.xml into platform-specific android config.xml
+[2025-01-13T14:33:39.204Z] [VERBOSE] [Build] [Gradle Properties] Preparing Configuration
+[2025-01-13T14:33:39.205Z] [VERBOSE] [Build] [Gradle Properties] Appending default configuration properties
+[2025-01-13T14:33:39.206Z] [VERBOSE] [Build] [Gradle Properties] Appending custom configuration properties
+[2025-01-13T14:33:39.206Z] [VERBOSE] [Build] [Gradle Properties] Updating and Saving File
+[2025-01-13T14:33:39.206Z] [VERBOSE] [Build] Merging and updating files from [www, platforms/android/platform_www] to platforms/android/app/src/main/assets/www
+[2025-01-13T14:33:39.254Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/cordova_plugins.js platforms/android/app/src/main/assets/www/cordova_plugins.js (updated file)
+[2025-01-13T14:33:39.256Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/call-number/www/CallNumber.js platforms/android/app/src/main/assets/www/plugins/call-number/www/CallNumber.js (updated file)
+[2025-01-13T14:33:39.256Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/com.outsystems.plugins.barcode/www/OSBarcode.js platforms/android/app/src/main/assets/www/plugins/com.outsystems.plugins.barcode/www/OSBarcode.js (updated file)
+[2025-01-13T14:33:39.257Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/com.outsystems.plugins.barcode/www/OSBarcodeConstants.js platforms/android/app/src/main/assets/www/plugins/com.outsystems.plugins.barcode/www/OSBarcodeConstants.js (updated file)
+[2025-01-13T14:33:39.258Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/com.outsystems.plugins.barcode/www/OSBarcodeScanner.js platforms/android/app/src/main/assets/www/plugins/com.outsystems.plugins.barcode/www/OSBarcodeScanner.js (updated file)
+[2025-01-13T14:33:39.259Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/com.outsystems.plugins.fileviewer/www/OSFileViewer.js platforms/android/app/src/main/assets/www/plugins/com.outsystems.plugins.fileviewer/www/OSFileViewer.js (updated file)
+[2025-01-13T14:33:39.259Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/com.outsystems.plugins.inappbrowser/dist/plugin.js platforms/android/app/src/main/assets/www/plugins/com.outsystems.plugins.inappbrowser/dist/plugin.js (updated file)
+[2025-01-13T14:33:39.260Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-appversion/www/app-version.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-appversion/www/app-version.js (updated file)
+[2025-01-13T14:33:39.261Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-camera/www/Camera.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-camera/www/Camera.js (updated file)
+[2025-01-13T14:33:39.262Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-camera/www/CameraConstants.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-camera/www/CameraConstants.js (updated file)
+[2025-01-13T14:33:39.262Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-camera/www/CameraPopoverHandle.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-camera/www/CameraPopoverHandle.js (updated file)
+[2025-01-13T14:33:39.263Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js (updated file)
+[2025-01-13T14:33:39.264Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file-transfer/www/FileTransfer.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file-transfer/www/FileTransfer.js (updated file)
+[2025-01-13T14:33:39.265Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file-transfer/www/FileTransferError.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file-transfer/www/FileTransferError.js (updated file)
+[2025-01-13T14:33:39.267Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/CordovaFileReader.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/CordovaFileReader.js (updated file)
+[2025-01-13T14:33:39.268Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/DirectoryEntry.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/DirectoryEntry.js (updated file)
+[2025-01-13T14:33:39.269Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/DirectoryReader.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/DirectoryReader.js (updated file)
+[2025-01-13T14:33:39.270Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/Entry.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/Entry.js (updated file)
+[2025-01-13T14:33:39.270Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/File.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/File.js (updated file)
+[2025-01-13T14:33:39.271Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/FileEntry.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/FileEntry.js (updated file)
+[2025-01-13T14:33:39.272Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/FileError.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/FileError.js (updated file)
+[2025-01-13T14:33:39.272Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/FileSystem.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/FileSystem.js (updated file)
+[2025-01-13T14:33:39.273Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/FileUploadOptions.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/FileUploadOptions.js (updated file)
+[2025-01-13T14:33:39.274Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/FileUploadResult.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/FileUploadResult.js (updated file)
+[2025-01-13T14:33:39.274Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/FileWriter.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/FileWriter.js (updated file)
+[2025-01-13T14:33:39.275Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/Flags.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/Flags.js (updated file)
+[2025-01-13T14:33:39.276Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/LocalFileSystem.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/LocalFileSystem.js (updated file)
+[2025-01-13T14:33:39.276Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/Metadata.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/Metadata.js (updated file)
+[2025-01-13T14:33:39.277Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/ProgressEvent.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/ProgressEvent.js (updated file)
+[2025-01-13T14:33:39.278Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/android/FileSystem.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/android/FileSystem.js (updated file)
+[2025-01-13T14:33:39.279Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/browser/isChrome.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/browser/isChrome.js (updated file)
+[2025-01-13T14:33:39.279Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/fileSystemPaths.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/fileSystemPaths.js (updated file)
+[2025-01-13T14:33:39.280Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/fileSystems-roots.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/fileSystems-roots.js (updated file)
+[2025-01-13T14:33:39.280Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/fileSystems.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/fileSystems.js (updated file)
+[2025-01-13T14:33:39.282Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/requestFileSystem.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/requestFileSystem.js (updated file)
+[2025-01-13T14:33:39.282Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js (updated file)
+[2025-01-13T14:33:39.283Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js (updated file)
+[2025-01-13T14:33:39.283Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-geolocation/www/Coordinates.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-geolocation/www/Coordinates.js (updated file)
+[2025-01-13T14:33:39.284Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-geolocation/www/Position.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-geolocation/www/Position.js (updated file)
+[2025-01-13T14:33:39.285Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-geolocation/www/PositionError.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-geolocation/www/PositionError.js (updated file)
+[2025-01-13T14:33:39.285Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-geolocation/www/geolocation.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-geolocation/www/geolocation.js (updated file)
+[2025-01-13T14:33:39.286Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-insomnia/www/Insomnia.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-insomnia/www/Insomnia.js (updated file)
+[2025-01-13T14:33:39.286Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/cordova-plugin-msal/www/msalplugin.js platforms/android/app/src/main/assets/www/plugins/cordova-plugin-msal/www/msalplugin.js (updated file)
+[2025-01-13T14:33:39.288Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/onesignal-cordova-plugin/www/OneSignal.js platforms/android/app/src/main/assets/www/plugins/onesignal-cordova-plugin/www/OneSignal.js (updated file)
+[2025-01-13T14:33:39.290Z] [VERBOSE] [Build]   copy  platforms/android/platform_www/plugins/outsystems-plugin-fingerprint/www/FingerPrint.js platforms/android/app/src/main/assets/www/plugins/outsystems-plugin-fingerprint/www/FingerPrint.js (updated file)
+[2025-01-13T14:33:39.293Z] [VERBOSE] [Build] Wrote out android application name "Arabic School for Teachers" to source/platforms/android/app/src/main/res/values/strings.xml
+[2025-01-13T14:33:39.294Z] [VERBOSE] [Build] Wrote out Android application SplashScreen Color to source/platforms/android/app/src/main/res/values/colors.xml
+[2025-01-13T14:33:39.295Z] [VERBOSE] [Build] The "AndroidWindowSplashScreenBrandingImage" is undefined. Cordova's default will be used.
+[2025-01-13T14:33:39.296Z] [VERBOSE] [Build] Wrote out Android application SplashScreen Icon Color to source/platforms/android/app/src/main/res/values/colors.xml
+[2025-01-13T14:33:39.297Z] [VERBOSE] [Build] Wrote out Android application themes to source/platforms/android/app/src/main/res/values/themes.xml
+[2025-01-13T14:33:39.297Z] [VERBOSE] [Build] [Cordova Gradle Config] Setting "PACKAGE_NAMESPACE" to com.kwalha.arabicschool
+[2025-01-13T14:33:39.297Z] [VERBOSE] [Build] [Cordova Gradle Config] Saving File
+[2025-01-13T14:33:39.311Z] [VERBOSE] [Build] Updating icons at platforms/android/app/src/main/res
+[2025-01-13T14:33:39.318Z] [VERBOSE] [Build] Updating splash screens at platforms/android/app/src/main/res
+[2025-01-13T14:33:39.318Z] [VERBOSE] [Build] Updating resource files at platforms/android
+[2025-01-13T14:33:39.318Z] [VERBOSE] [Build] Prepared android project successfully
+[2025-01-13T14:33:39.341Z] [VERBOSE] [Build] Executing script found in plugin cordova-plugin-file for hook "after_prepare": plugins/cordova-plugin-file/src/android/hooks/androidSetRequestLegacyStorage.js
+[2025-01-13T14:33:39.376Z] [VERBOSE] [Build] No scripts found for hook "before_compile".
+[2025-01-13T14:33:39.377Z] [VERBOSE] [Build] Checking Java JDK and Android SDK versions
+[2025-01-13T14:33:39.378Z] [VERBOSE] [Build] ANDROID_HOME=/opt/android-sdk (recommended setting)
+[2025-01-13T14:33:39.378Z] [VERBOSE] [Build] ANDROID_SDK_ROOT=/opt/android-sdk (DEPRECATED)
+[2025-01-13T14:33:39.550Z] [VERBOSE] [Build] Using Android SDK: /opt/android-sdk
+[2025-01-13T14:33:39.553Z] [VERBOSE] [Build] Reading build config file: keys/build.json
+[2025-01-13T14:33:39.553Z] [VERBOSE] [Build] Reading the keystore from: keys/android.keystore
+[2025-01-13T14:33:39.555Z] [VERBOSE] [Build] Using Gradle: 8.11.1
+[2025-01-13T14:33:40.308Z] [VERBOSE] [Build] Starting a Gradle Daemon (subsequent builds will be faster)
+[2025-01-13T14:33:46.009Z] [VERBOSE] [Build] > Task :wrapper
+[2025-01-13T14:33:46.009Z] [VERBOSE] [Build] BUILD SUCCESSFUL in 6s
+[2025-01-13T14:33:46.009Z] [VERBOSE] [Build] 1 actionable task: 1 executed
+[2025-01-13T14:33:46.365Z] [VERBOSE] [Build] Subproject Path: CordovaLib
+[2025-01-13T14:33:46.365Z] [VERBOSE] [Build] Subproject Path: app
+[2025-01-13T14:33:46.367Z] [VERBOSE] [Build] Running Gradle Build: source/platforms/android/tools/gradlew --parallel :app:bundleRelease
+[2025-01-13T14:33:46.472Z] [VERBOSE] [Build] Downloading https://services.gradle.org/distributions/gradle-8.11.1-bin.zip
+[2025-01-13T14:33:48.569Z] [VERBOSE] [Build] .............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+[2025-01-13T14:33:50.120Z] [VERBOSE] [Build] Welcome to Gradle 8.11.1!
+[2025-01-13T14:33:50.120Z] [VERBOSE] [Build] Here are the highlights of this release:
+[2025-01-13T14:33:50.120Z] [VERBOSE] [Build]  - Parallel load and store for Configuration Cache
+[2025-01-13T14:33:50.120Z] [VERBOSE] [Build]  - Java compilation errors at the end of the build output
+[2025-01-13T14:33:50.120Z] [VERBOSE] [Build]  - Consolidated report for warnings and deprecations
+[2025-01-13T14:33:50.121Z] [VERBOSE] [Build] For more details see https://docs.gradle.org/8.11.1/release-notes.html
+[2025-01-13T14:33:50.218Z] [VERBOSE] [Build] Starting a Gradle Daemon (subsequent builds will be faster)
+[2025-01-13T14:35:33.321Z] [VERBOSE] [Build] > Configure project :app
+[2025-01-13T14:35:33.322Z] [VERBOSE] [Build] WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+[2025-01-13T14:35:36.518Z] [VERBOSE] [Build] Errors during XML parse:
+[2025-01-13T14:35:36.518Z] [VERBOSE] [Build] Additionally, the fallback loader failed to parse the XML.
+[2025-01-13T14:35:36.717Z] [VERBOSE] [Build] Errors during XML parse:
+[2025-01-13T14:35:36.718Z] [VERBOSE] [Build] Additionally, the fallback loader failed to parse the XML.
+[2025-01-13T14:35:37.018Z] [VERBOSE] [Build] Checking the license for package Android SDK Platform 34 in /opt/android-sdk/licenses
+[2025-01-13T14:35:37.018Z] [VERBOSE] [Build] License for package Android SDK Platform 34 accepted.
+[2025-01-13T14:35:37.018Z] [VERBOSE] [Build] Preparing "Install Android SDK Platform 34 (revision 3)".
+[2025-01-13T14:35:37.018Z] [VERBOSE] [Build] Warning: Failed to read or create install properties file.
+[2025-01-13T14:35:37.118Z] [VERBOSE] [Build] FAILURE: Build failed with an exception.
+[2025-01-13T14:35:37.118Z] [VERBOSE] [Build] * What went wrong:
+[2025-01-13T14:35:37.118Z] [VERBOSE] [Build] Could not determine the dependencies of task ':app:bundleReleaseResources'.
+[2025-01-13T14:35:37.118Z] [VERBOSE] [Build] > Failed to install the following SDK components:
+[2025-01-13T14:35:37.118Z] [VERBOSE] [Build]       platforms;android-34 Android SDK Platform 34
+[2025-01-13T14:35:37.118Z] [VERBOSE] [Build]   The SDK directory is not writable (/opt/android-sdk)
+[2025-01-13T14:35:37.119Z] [VERBOSE] [Build] * Try:
+[2025-01-13T14:35:37.119Z] [VERBOSE] [Build] > Run with --stacktrace option to get the stack trace.
+[2025-01-13T14:35:37.119Z] [VERBOSE] [Build] > Run with --info or --debug option to get more log output.
+[2025-01-13T14:35:37.119Z] [VERBOSE] [Build] > Run with --scan to get full insights.
+[2025-01-13T14:35:37.119Z] [VERBOSE] [Build] > Get more help at https://help.gradle.org.
+[2025-01-13T14:35:37.119Z] [VERBOSE] [Build] BUILD FAILED in 1m 50s
+[2025-01-13T14:35:37.523Z] [VERBOSE] [Build] Command failed with exit code 1: source/platforms/android/tools/gradlew --parallel :app:bundleRelease
+[2025-01-13T14:35:37.523Z] [VERBOSE] [Build] Error: Command failed with exit code 1: source/platforms/android/tools/gradlew --parallel :app:bundleRelease
+[2025-01-13T14:35:37.523Z] [VERBOSE] [Build]     at makeError (source/node_modules/execa/lib/error.js:60:11)
+[2025-01-13T14:35:37.523Z] [VERBOSE] [Build]     at handlePromise (source/node_modules/execa/index.js:118:26)
+[2025-01-13T14:35:37.523Z] [VERBOSE] [Build]     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-01-13T14:35:37.523Z] [VERBOSE] [Build]     at async ProjectBuilder.build (source/node_modules/cordova-android/lib/builders/ProjectBuilder.js:326:20)
+[2025-01-13T14:35:37.749Z] [INFO] [Build] Remove generated Android build files
+[2025-01-13T14:35:37.750Z] [INFO] [Build] Remove debug/release signing properties
+[2025-01-13T14:35:37.986Z] [INFO] [Build] Zipping application source code...
+[2025-01-13T14:35:45.055Z] [INFO] [Build] Saving package and sourAce files...
+[2025-01-13T14:35:45.056Z] [ERROR] [Build] -- v --
+[2025-01-13T14:35:45.056Z] [ERROR] [Build] The build phase failed to complete!
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] Reason: Couldn't generate your app. If the problem persists, check our documentation for more information.
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] Additional information:
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] FAILURE: Build failed with an exception.
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] * What went wrong:
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] Could not determine the dependencies of task ':app:bundleReleaseResources'.
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] > Failed to install the following SDK components:
+[2025-01-13T14:35:45.057Z] [ERROR] [Build]       platforms;android-34 Android SDK Platform 34
+[2025-01-13T14:35:45.057Z] [ERROR] [Build]   The SDK directory is not writable (/opt/android-sdk)
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] * Try:
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] > Run with --stacktrace option to get the stack trace.
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] > Run with --info or --debug option to get more log output.
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] > Run with --scan to get full insights.
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] > Get more help at https://help.gradle.org.
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] BUILD FAILED in 1m 50s
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] Command failed with exit code 1: source/platforms/android/tools/gradlew --parallel :app:bundleRelease
+[2025-01-13T14:35:45.057Z] [ERROR] [Build] -- ^ --
+[2025-01-13T14:35:45.057Z] [INFO] [Build] Application was not successfully generated!
+[2025-01-13T14:35:45.773Z] [INFO] [Build] Execution time: 270500 ms
